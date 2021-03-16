@@ -54,6 +54,9 @@ function makeRecipe(data, items, d) {
         let item = items.get(item_key)
         ingredients.push(new Ingredient(item, Rational.from_float(amount)))
     }
+    if (!product || !product.item) {
+        console.log("Error loading item: " + item_key)
+    }
     return new Recipe(d.key_name, d.name, d.category, time, ingredients, product)
 }
 

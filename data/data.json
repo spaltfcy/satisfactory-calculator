@@ -582,6 +582,12 @@
             "stack_size": 200
         },
         {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "tier": 2,
+            "stack_size": 50
+        },
+        {
             "name": "Adaptive Control Unit",
             "key_name": "adaptive-control-unit",
             "tier": 5,
