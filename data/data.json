@@ -3,27 +3,32 @@
         {
             "name": "Conveyor Belt",
             "key_name": "belt1",
-            "rate": 60
+            "rate": 60,
+            "image": "conveyor-belt-mk-1.png"
         },
         {
             "name": "Conveyor Belt Mk.2",
             "key_name": "belt2",
-            "rate": 120
+            "rate": 120,
+            "image": "conveyor-belt-mk-2.png"
         },
         {
             "name": "Conveyor Belt Mk.3",
             "key_name": "belt3",
-            "rate": 270
+            "rate": 270,
+            "image": "conveyor-belt-mk-3.png"
         },
         {
             "name": "Conveyor Belt Mk.4",
             "key_name": "belt4",
-            "rate": 480
+            "rate": 480,
+            "image": "conveyor-belt-mk-4.png"
         },
         {
             "name": "Conveyor Belt Mk.5",
             "key_name": "belt5",
-            "rate": 780
+            "rate": 780,
+            "image": "conveyor-belt-mk-5.png"
         }
     ],
     "buildings": [

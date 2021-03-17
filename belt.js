@@ -14,13 +14,14 @@ limitations under the License.*/
 import { Rational } from "./rational.js"
 
 class Belt {
-    constructor(key, name, rate) {
+    constructor(key, name, rate, img) {
         this.key = key
         this.name = name
         this.rate = rate
+        this.img = img
     }
     iconPath() {
-        return "images/" + this.name + ".png"
+        return "images/" + this.img
     }
 }
 
@@ -30,7 +31,8 @@ export function getBelts(data) {
         belts.set(belt.key_name, new Belt(
             belt.key_name,
             belt.name,
-            Rational.from_float(belt.rate).div(Rational.from_float(60))
+            Rational.from_float(belt.rate).div(Rational.from_float(60)),
+            belt.image
         ))
     }
     return belts

@@ -1,2 +1,8 @@
 *.swp
-launch.json
+.vscode
+
+#python tools gitignore
+*/__pycache__/
+*.py[cod]
+*$py.class
+
