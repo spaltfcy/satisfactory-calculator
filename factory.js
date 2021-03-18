@@ -155,8 +155,7 @@ class FactorySpecification {
         return building.getRecipeRate(this, recipe)
     }
     getResourcePurity(recipe) {
-        //TODO I haxed this
-        return this.minerSettings.entries().next().purity//this.minerSettings.get(recipe).purity
+        return this.minerSettings.get(recipe).purity
     }
     setMiner(recipe, miner, purity) {
         this.minerSettings.set(recipe, {miner, purity})

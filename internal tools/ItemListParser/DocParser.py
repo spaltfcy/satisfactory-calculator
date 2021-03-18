@@ -185,7 +185,7 @@ data['miners'] = [
     {
         "name": "Oil Extractor",
         "key_name": "oil-extractor",
-        "category": "fluid",
+        "category": "oil",
         "base_rate": 120,
         "power": 40,
         "image": "oil-extractor.png"
@@ -193,7 +193,7 @@ data['miners'] = [
     {
         "name": "Water Extractor",
         "key_name": "water-extractor",
-        "category": "fluid",
+        "category": "water",
         "base_rate": 120,
         "power": 20,
         "image": "water-extractor.png"
@@ -201,7 +201,7 @@ data['miners'] = [
     {
         "name": "Resource Well Extractor",
         "key_name": "well-extractor",
-        "category": "fluid",
+        "category": "gas",
         "base_rate": 60,
         "power": 0,
         "image": "Unknown.png"
@@ -289,7 +289,7 @@ data['resources'] = [
     },
     {
         "key_name": "Desc_LiquidOil_C",
-        "category": "fluid"
+        "category": "oil"
     },
     {
         "key_name": "Desc_OreBauxite_C",
@@ -301,7 +301,11 @@ data['resources'] = [
     },
     {
         "key_name": "Desc_Water_C",
-        "category": "fluid"
+        "category": "water"
+    },
+    {
+        "key_name": "Desc_NitrogenGas_C",
+        "category": "gas"
     }
 ]
 
