@@ -1,4 +1,6 @@
 import json
+import os
+import os.path
 
 CheckAvailableImages = True
 IgnoredBuildings = ["Build_Converter_C", "FGBuildGun", "BP_BuildGun_C", "BP_WorkshopComponent_C", 
@@ -14,12 +16,6 @@ docs = json.load(DocFile)
 DocFile.close()
 
 data = {}
-
-imageTranslator = None
-if CheckAvailableImages:
-    TranslationFile = open("images.json", "r")
-    imageTranslator = json.load(TranslationFile)
-    TranslationFile.close()
 
 def findNativeClass(name):
     for obj in docs:
@@ -309,9 +305,19 @@ data['resources'] = [
     }
 ]
 
+def checkImages(folder, defaultImg, dataObj, name):
+    for obj in dataObj:
+        if not os.path.isfile(folder + obj['image']):
+            print("WARNING: Couldn't find " + name + " image: " + obj['image'])
+            dataObj['image'] = defaultImg
+
 if CheckAvailableImages:
-    pass
-        
+    baseFolder = "../../images/"
+    defaultImg = "Unknown.png"
+    checkImages(baseFolder, defaultImg, data['belts'], "belt")
+    checkImages(baseFolder, defaultImg, data['buildings'], "building")
+    checkImages(baseFolder, defaultImg, data['miners'], "miner")
+    checkImages(baseFolder, defaultImg, data['items'], "item")
         
 
 
