@@ -10,6 +10,7 @@ IgnoredItems = ["Desc_Gift_C", "Desc_XmasBranch_C", "Desc_CandyCane_C", "Desc_Xm
     "Desc_XmasBall1_C", "Desc_XmasBall3_C", "Desc_XmasBall2_C", "Desc_XmasBall4_C", "Desc_XmasBallCluster_C",
     "Desc_XmasWreath_C", "Desc_XmasStar_C", "Desc_SnowballProjectile_C", "Desc_UraniumPellet_C"
 ]
+FluidDivider = 100
 
 DocFile = open("Docs.json",)
 docs = json.load(DocFile)
@@ -46,6 +47,7 @@ recipeClass = findNativeClass("Class'/Script/FactoryGame.FGRecipe'")
 discoveredBuildings = []
 discoveredItems = []
 recipes = []
+alternateRecipes = []
 for recipeData in recipeClass:
     FoundIgnored = False
     producedInData = recipeData['mProducedIn'].lstrip("(").rstrip(")").split(",")
@@ -110,7 +112,10 @@ for recipeData in recipeClass:
     }
     if len(products) > 1:
         print("WARNING: recipe has two products: " + displayName)
-    recipes.append(recipe)
+    if "Alternate" in displayName:
+        alternateRecipes.append(recipe)
+    else:
+        recipes.append(recipe)
 
     # Add to our discovered items list
     for item in ingredients:
@@ -124,6 +129,11 @@ for recipeData in recipeClass:
     for building in producedIn:
         if building not in discoveredBuildings:
             discoveredBuildings.append(building)
+
+# Add alternate recipes after all normal recipes have been added
+# This is done sow the normal recipes are choses as the defauts when the json is loaded
+for recipe in alternateRecipes:
+    recipes.append(recipe)
 
 # Generate building data
 buildings = []
@@ -220,6 +230,7 @@ stackSizes = {
 
 # Generate item data
 items = []
+fluidItems = []
 checkItemClasses = [
     "Class'/Script/FactoryGame.FGItemDescriptor'",
     "Class'/Script/FactoryGame.FGItemDescriptorBiomass'",
@@ -234,6 +245,7 @@ def findItem(name):
         for itemData in itemClass:
             if itemData['ClassName'] == name:
                 return itemData
+
 for itemName in discoveredItems:
     itemData = findItem(itemName)
     if itemData is None:
@@ -245,6 +257,8 @@ for itemName in discoveredItems:
     stackSizeStr = itemData['mStackSize']
     if (stackSizeStr is not None) and (stackSizeStr in stackSizes):
         stackSize = stackSizes[stackSizeStr]
+    if stackSizeStr == "SS_FLUID":
+        fluidItems.append(itemName)
     item = {
         'name': name,
         'key_name': itemName,
@@ -309,11 +323,26 @@ data['resources'] = [
     }
 ]
 
+# Find recipes using fluids and correct the numbers
+for recipe in recipes:
+    for ingredient in recipe['ingredients']:
+        if ingredient[0] in fluidItems:
+            ingredient[1] //= FluidDivider
+    if type(recipe['product'][0]) is str:
+        if recipe['product'][0] in fluidItems:
+            recipe['product'][1] //= FluidDivider
+    else:
+        for product in recipe['product']:
+            if product[0] in fluidItems:
+                product[1] //= FluidDivider
+
+
+#Check if all the images are present.
 def checkImages(folder, defaultImg, dataObj, name):
     for obj in dataObj:
         if not os.path.isfile(folder + obj['image']):
             print("WARNING: Couldn't find " + name + " image: " + obj['image'])
-            dataObj['image'] = defaultImg
+            obj['image'] = defaultImg
 
 if CheckAvailableImages:
     baseFolder = "../../images/"
