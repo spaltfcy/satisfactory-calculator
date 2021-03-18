@@ -1173,10 +1173,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_LiquidFuel_C",
-                    40
-                ]
+                "Desc_LiquidFuel_C",
+                40
             ]
         },
         {
@@ -1207,10 +1205,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_Plastic_C",
-                    2
-                ]
+                "Desc_Plastic_C",
+                2
             ]
         },
         {
@@ -1225,10 +1221,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_Rubber_C",
-                    2
-                ]
+                "Desc_Rubber_C",
+                2
             ]
         },
         {
@@ -1519,10 +1513,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_UraniumCell_C",
-                    5
-                ]
+                "Desc_UraniumCell_C",
+                5
             ]
         },
         {
@@ -1601,10 +1593,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_NonFissibleUranium_C",
-                    10
-                ]
+                "Desc_NonFissibleUranium_C",
+                10
             ]
         },
         {
@@ -1683,10 +1673,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_AluminaSolution_C",
-                    120
-                ]
+                "Desc_AluminaSolution_C",
+                120
             ]
         },
         {
@@ -1705,10 +1693,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_AluminumScrap_C",
-                    6
-                ]
+                "Desc_AluminumScrap_C",
+                6
             ]
         },
         {
@@ -2131,10 +2117,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_Battery_C",
-                    1
-                ]
+                "Desc_Battery_C",
+                1
             ]
         },
         {
@@ -3149,10 +3133,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_AluminumScrap_C",
-                    8
-                ]
+                "Desc_AluminumScrap_C",
+                8
             ]
         },
         {
@@ -3259,10 +3241,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_HeavyOilResidue_C",
-                    40
-                ]
+                "Desc_HeavyOilResidue_C",
+                40
             ]
         },
         {
@@ -3345,10 +3325,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_PolymerResin_C",
-                    13
-                ]
+                "Desc_PolymerResin_C",
+                13
             ]
         },
         {
@@ -3815,10 +3793,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_NonFissibleUranium_C",
-                    20
-                ]
+                "Desc_NonFissibleUranium_C",
+                20
             ]
         },
         {
@@ -3897,10 +3873,8 @@
                 ]
             ],
             "product": [
-                [
-                    "Desc_AluminumScrap_C",
-                    30
-                ]
+                "Desc_AluminumScrap_C",
+                30
             ]
         },
         {
