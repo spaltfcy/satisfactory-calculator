@@ -14,12 +14,13 @@ limitations under the License.*/
 import { Rational } from "./rational.js"
 
 class Building {
-    constructor(key, name, category, power, max) {
+    constructor(key, name, category, power, max, img) {
         this.key = key
         this.name = name
         this.category = category
         this.power = power
         this.max = max
+        this.img = img
     }
     getCount(spec, recipe, rate) {
         return rate.div(this.getRecipeRate(spec, recipe))
@@ -29,18 +30,26 @@ class Building {
         return recipe.time.reciprocate().mul(overclock)
     }
     iconPath() {
-        return "images/" + this.name + ".png"
+        return "images/" + this.img
     }
 }
 
 class Miner extends Building {
-    constructor(key, name, category, power, baseRate) {
-        super(key, name, category, power, null)
+    constructor(key, name, category, power, baseRate, img) {
+        super(key, name, category, power, null, img)
         this.baseRate = baseRate
     }
     getRecipeRate(spec, recipe) {
         let purity = spec.getResourcePurity(recipe)
         let overclock = spec.getOverclock(recipe)
+        if (purity == undefined){
+            purity = {
+                'factor': new Rational(bigInt(1), bigInt(1))
+            }
+        }
+        if(overclock == undefined){
+            overclock = new Rational(bigInt(1), bigInt(1))
+        }
         return this.baseRate.mul(purity.factor).mul(overclock)
     }
 }
@@ -54,6 +63,7 @@ export function getBuildings(data) {
             d.category,
             Rational.from_float(d.power),
             d.max,
+            d.image
         ))
     }
     for (let d of data.miners) {
@@ -63,6 +73,7 @@ export function getBuildings(data) {
             d.category,
             Rational.from_float(d.power),
             Rational.from_float(d.base_rate).div(Rational.from_float(60)),
+            d.image
         ))
     }
     return buildings

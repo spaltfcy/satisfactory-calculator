@@ -14,12 +14,13 @@ limitations under the License.*/
 import { Totals } from "./totals.js"
 
 export class Item {
-    constructor(key, name, tier) {
+    constructor(key, name, tier, img) {
         this.key = key
         this.name = name
         this.tier = tier
         this.recipes = []
         this.uses = []
+        this.img = img
     }
     addRecipe(recipe) {
         this.recipes.push(recipe)
@@ -44,14 +45,14 @@ export class Item {
         return totals
     }
     iconPath() {
-        return "images/" + this.name + ".png"
+        return "images/" + this.img
     }
 }
 
 export function getItems(data) {
     let items = new Map()
     for (let d of data.items) {
-        items.set(d.key_name, new Item(d.key_name, d.name, d.tier))
+        items.set(d.key_name, new Item(d.key_name, d.name, d.tier, d.image))
     }
     return items
 }

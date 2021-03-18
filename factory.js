@@ -19,7 +19,7 @@ import { BuildTarget } from "./target.js"
 import { Totals } from "./totals.js"
 import { renderTotals } from "./visualize.js"
 
-const DEFAULT_ITEM_KEY = "supercomputer"
+const DEFAULT_ITEM_KEY = "Desc_ComputerSuper_C"
 
 let minerCategories = new Set(["mineral", "oil"])
 
@@ -155,7 +155,8 @@ class FactorySpecification {
         return building.getRecipeRate(this, recipe)
     }
     getResourcePurity(recipe) {
-        return this.minerSettings.get(recipe).purity
+        //TODO I haxed this
+        return this.minerSettings.entries().next().purity//this.minerSettings.get(recipe).purity
     }
     setMiner(recipe, miner, purity) {
         this.minerSettings.set(recipe, {miner, purity})
