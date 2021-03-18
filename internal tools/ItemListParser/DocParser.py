@@ -10,7 +10,7 @@ IgnoredItems = ["Desc_Gift_C", "Desc_XmasBranch_C", "Desc_CandyCane_C", "Desc_Xm
     "Desc_XmasBall1_C", "Desc_XmasBall3_C", "Desc_XmasBall2_C", "Desc_XmasBall4_C", "Desc_XmasBallCluster_C",
     "Desc_XmasWreath_C", "Desc_XmasStar_C", "Desc_SnowballProjectile_C", "Desc_UraniumPellet_C"
 ]
-FluidDivider = 100
+FluidDivider = 1000
 
 DocFile = open("Docs.json",)
 docs = json.load(DocFile)

@@ -1169,12 +1169,12 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    60
+                    6
                 ]
             ],
             "product": [
                 "Desc_LiquidFuel_C",
-                40
+                4
             ]
         },
         {
@@ -1185,7 +1185,7 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    40
+                    4
                 ]
             ],
             "product": [
@@ -1201,7 +1201,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    30
+                    3
                 ]
             ],
             "product": [
@@ -1217,7 +1217,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    30
+                    3
                 ]
             ],
             "product": [
@@ -1233,12 +1233,12 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    60
+                    6
                 ]
             ],
             "product": [
                 "Desc_LiquidFuel_C",
-                40
+                4
             ]
         },
         {
@@ -1253,7 +1253,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    20
+                    2
                 ]
             ],
             "product": [
@@ -1273,7 +1273,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    40
+                    4
                 ]
             ],
             "product": [
@@ -1381,7 +1381,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidFuel_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -1405,12 +1405,12 @@
                 ],
                 [
                     "Desc_Water_C",
-                    30
+                    3
                 ]
             ],
             "product": [
                 "Desc_LiquidBiofuel_C",
-                40
+                4
             ]
         },
         {
@@ -1421,7 +1421,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidBiofuel_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -1441,7 +1441,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -1461,7 +1461,7 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -1481,7 +1481,7 @@
             "ingredients": [
                 [
                     "Desc_Water_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -1509,7 +1509,7 @@
                 ],
                 [
                     "Desc_SulfuricAcid_C",
-                    80
+                    8
                 ]
             ],
             "product": [
@@ -1533,11 +1533,11 @@
                 ],
                 [
                     "Desc_Water_C",
-                    50
+                    5
                 ],
                 [
                     "Desc_NitrogenGas_C",
-                    250
+                    25
                 ]
             ],
             "product": [
@@ -1553,11 +1553,11 @@
             "ingredients": [
                 [
                     "Desc_NitrogenGas_C",
-                    240
+                    24
                 ],
                 [
                     "Desc_Water_C",
-                    60
+                    6
                 ],
                 [
                     "Desc_IronPlate_C",
@@ -1566,7 +1566,7 @@
             ],
             "product": [
                 "Desc_NitricAcid_C",
-                60
+                6
             ]
         },
         {
@@ -1581,11 +1581,11 @@
                 ],
                 [
                     "Desc_NitricAcid_C",
-                    30
+                    3
                 ],
                 [
                     "Desc_SulfuricAcid_C",
-                    60
+                    6
                 ],
                 [
                     "Desc_Silica_C",
@@ -1593,8 +1593,8 @@
                 ]
             ],
             "product": [
-                "Desc_NonFissibleUranium_C",
-                10
+                    "Desc_NonFissibleUranium_C",
+                    10
             ]
         },
         {
@@ -1669,12 +1669,12 @@
                 ],
                 [
                     "Desc_Water_C",
-                    180
+                    18
                 ]
             ],
             "product": [
                 "Desc_AluminaSolution_C",
-                120
+                12
             ]
         },
         {
@@ -1685,7 +1685,7 @@
             "ingredients": [
                 [
                     "Desc_AluminaSolution_C",
-                    40
+                    4
                 ],
                 [
                     "Desc_Coal_C",
@@ -1705,7 +1705,7 @@
             "ingredients": [
                 [
                     "Desc_AluminaSolution_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -2085,7 +2085,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidTurboFuel_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -2105,11 +2105,11 @@
             "ingredients": [
                 [
                     "Desc_SulfuricAcid_C",
-                    25
+                    2
                 ],
                 [
                     "Desc_AluminaSolution_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_AluminumCasing_C",
@@ -2161,12 +2161,12 @@
                 ],
                 [
                     "Desc_Water_C",
-                    50
+                    5
                 ]
             ],
             "product": [
                 "Desc_SulfuricAcid_C",
-                50
+                5
             ]
         },
         {
@@ -2177,7 +2177,7 @@
             "ingredients": [
                 [
                     "Desc_SulfuricAcid_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -2269,7 +2269,7 @@
                 ],
                 [
                     "Desc_NitrogenGas_C",
-                    250
+                    25
                 ]
             ],
             "product": [
@@ -2301,7 +2301,7 @@
             "ingredients": [
                 [
                     "Desc_NitrogenGas_C",
-                    40
+                    4
                 ],
                 [
                     "Desc_GasTank_C",
@@ -2425,7 +2425,7 @@
             "ingredients": [
                 [
                     "Desc_NitricAcid_C",
-                    10
+                    1
                 ],
                 [
                     "Desc_FluidCanister_C",
@@ -2585,7 +2585,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidFuel_C",
-                    60
+                    6
                 ],
                 [
                     "Desc_CompactedCoal_C",
@@ -2594,7 +2594,7 @@
             ],
             "product": [
                 "Desc_LiquidTurboFuel_C",
-                50
+                5
             ]
         },
         {
@@ -2989,7 +2989,7 @@
                 ],
                 [
                     "Desc_HeavyOilResidue_C",
-                    20
+                    2
                 ]
             ],
             "product": [
@@ -3105,7 +3105,7 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    10
+                    1
                 ],
                 [
                     "Desc_PackagedWater_C",
@@ -3125,7 +3125,7 @@
             "ingredients": [
                 [
                     "Desc_AluminaSolution_C",
-                    30
+                    3
                 ],
                 [
                     "Desc_PetroleumCoke_C",
@@ -3237,12 +3237,12 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    30
+                    3
                 ]
             ],
             "product": [
                 "Desc_HeavyOilResidue_C",
-                40
+                4
             ]
         },
         {
@@ -3305,7 +3305,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    100
+                    10
                 ]
             ],
             "product": [
@@ -3321,7 +3321,7 @@
             "ingredients": [
                 [
                     "Desc_LiquidOil_C",
-                    60
+                    6
                 ]
             ],
             "product": [
@@ -3357,7 +3357,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    20
+                    2
                 ]
             ],
             "product": [
@@ -3377,7 +3377,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    40
+                    4
                 ]
             ],
             "product": [
@@ -3397,7 +3397,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    40
+                    4
                 ]
             ],
             "product": [
@@ -3417,7 +3417,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    50
+                    5
                 ]
             ],
             "product": [
@@ -3437,7 +3437,7 @@
                 ],
                 [
                     "Desc_LiquidFuel_C",
-                    60
+                    6
                 ]
             ],
             "product": [
@@ -3477,7 +3477,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    30
+                    3
                 ]
             ],
             "product": [
@@ -3545,7 +3545,7 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    50
+                    5
                 ],
                 [
                     "Desc_CompactedCoal_C",
@@ -3554,7 +3554,7 @@
             ],
             "product": [
                 "Desc_LiquidTurboFuel_C",
-                40
+                4
             ]
         },
         {
@@ -3621,7 +3621,7 @@
                 ],
                 [
                     "Desc_Water_C",
-                    50
+                    5
                 ]
             ],
             "product": [
@@ -3721,7 +3721,7 @@
                 ],
                 [
                     "Desc_NitrogenGas_C",
-                    240
+                    24
                 ]
             ],
             "product": [
@@ -3737,16 +3737,16 @@
             "ingredients": [
                 [
                     "Desc_HeavyOilResidue_C",
-                    50
+                    5
                 ],
                 [
                     "Desc_Water_C",
-                    100
+                    10
                 ]
             ],
             "product": [
                 "Desc_LiquidFuel_C",
-                100
+                10
             ]
         },
         {
@@ -3785,11 +3785,11 @@
                 ],
                 [
                     "Desc_NitricAcid_C",
-                    150
+                    15
                 ],
                 [
                     "Desc_SulfuricAcid_C",
-                    150
+                    15
                 ]
             ],
             "product": [
@@ -3813,11 +3813,11 @@
                 ],
                 [
                     "Desc_NitricAcid_C",
-                    80
+                    8
                 ],
                 [
                     "Desc_LiquidFuel_C",
-                    100
+                    10
                 ]
             ],
             "product": [
@@ -3841,7 +3841,7 @@
                 ],
                 [
                     "Desc_NitrogenGas_C",
-                    250
+                    25
                 ]
             ],
             "product": [
@@ -3865,11 +3865,11 @@
                 ],
                 [
                     "Desc_SulfuricAcid_C",
-                    50
+                    5
                 ],
                 [
                     "Desc_Water_C",
-                    110
+                    11
                 ]
             ],
             "product": [
@@ -3957,12 +3957,12 @@
                 ],
                 [
                     "Desc_Water_C",
-                    150
+                    15
                 ]
             ],
             "product": [
                 "Desc_AluminaSolution_C",
-                180
+                18
             ]
         },
         {
@@ -4001,11 +4001,11 @@
             "ingredients": [
                 [
                     "Desc_LiquidFuel_C",
-                    20
+                    2
                 ],
                 [
                     "Desc_HeavyOilResidue_C",
-                    40
+                    4
                 ],
                 [
                     "Desc_Sulfur_C",
@@ -4018,7 +4018,7 @@
             ],
             "product": [
                 "Desc_LiquidTurboFuel_C",
-                60
+                6
             ]
         },
         {
@@ -4521,7 +4521,7 @@
                 ],
                 [
                     "Desc_LiquidFuel_C",
-                    60
+                    6
                 ]
             ],
             "product": [
