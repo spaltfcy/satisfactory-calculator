@@ -68,12 +68,16 @@ class ResourceRecipe extends Recipe {
 
 export function getRecipes(data, items) {
     let recipes = new Map()
+    let keys = [];
     for (let d of data.resources) {
         let item = items.get(d.key_name)
         recipes.set(d.key_name, new ResourceRecipe(item, d.category))
+        keys.push(d.key_name);
     }
     for (let d of data.recipes) {
-        recipes.set(d.key_name, makeRecipe(data, items, d))
+        if(!keys.includes(d.key_name)) {
+            recipes.set(d.key_name, makeRecipe(data, items, d))
+        }
     }
     for (let [itemKey, item] of items) {
         if (item.recipes.length === 0) {
