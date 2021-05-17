@@ -143,7 +143,7 @@
             "category": "gas",
             "base_rate": 60,
             "power": 0,
-            "image": "Unknown.png"
+            "image": "unknown.png"
         }
     ],
     "items": [
@@ -747,7 +747,7 @@
             "key_name": "Desc_SpaceElevatorPart_7_C",
             "tier": -1,
             "stack_size": 50,
-            "image": "Unknown.png"
+            "image": "unknown.png"
         },
         {
             "name": "Fused Modular Frame",
@@ -838,7 +838,7 @@
             "key_name": "Desc_SpaceElevatorPart_6_C",
             "tier": -1,
             "stack_size": 50,
-            "image": "Unknown.png"
+            "image": "unknown.png"
         },
         {
             "name": "Turbo Motor",
@@ -873,7 +873,7 @@
             "key_name": "Desc_SpaceElevatorPart_8_C",
             "tier": -1,
             "stack_size": 50,
-            "image": "Unknown.png"
+            "image": "unknown.png"
         },
         {
             "name": "Gas Filter",

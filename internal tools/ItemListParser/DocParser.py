@@ -214,7 +214,7 @@ data['miners'] = [
         "category": "gas",
         "base_rate": 60,
         "power": 0,
-        "image": "Unknown.png"
+        "image": "unknown.png"
     }
 ]
 
@@ -346,7 +346,7 @@ def checkImages(folder, defaultImg, dataObj, name):
 
 if CheckAvailableImages:
     baseFolder = "../../images/"
-    defaultImg = "Unknown.png"
+    defaultImg = "unknown.png"
     checkImages(baseFolder, defaultImg, data['belts'], "belt")
     checkImages(baseFolder, defaultImg, data['buildings'], "building")
     checkImages(baseFolder, defaultImg, data['miners'], "miner")
