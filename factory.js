@@ -21,7 +21,7 @@ import { renderTotals } from "./visualize.js"
 
 const DEFAULT_ITEM_KEY = "Desc_ComputerSuper_C"
 
-let minerCategories = new Set(["mineral", "oil"])
+let minerCategories = new Set(["mineral", "oil", "water", "gas"])
 
 export let resourcePurities = [
     {key: "0", name: "Impure", factor: half},
@@ -29,9 +29,9 @@ export let resourcePurities = [
     {key: "2", name: "Pure", factor: Rational.from_float(2)},
 ]
 
-export let DEFAULT_PURITY = resourcePurities[1]
+export let DEFAULT_PURITY = resourcePurities[2]
 
-export let DEFAULT_BELT = "belt1"
+export let DEFAULT_BELT = "belt5"
 
 class FactorySpecification {
     constructor() {
