@@ -3949,20 +3949,20 @@
             "name": "Alternate: Sloppy Alumina",
             "key_name": "Desc_AluminaSolution_C",
             "category": "crafting0",
-            "time": 6,
+            "time": 3,
             "ingredients": [
                 [
                     "Desc_OreBauxite_C",
-                    15
+                    10
                 ],
                 [
                     "Desc_Water_C",
-                    15
+                    10
                 ]
             ],
             "product": [
                 "Desc_AluminaSolution_C",
-                18
+                12
             ]
         },
         {
