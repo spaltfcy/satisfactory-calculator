@@ -29,7 +29,7 @@ export let resourcePurities = [
     {key: "2", name: "Pure", factor: Rational.from_float(2)},
 ]
 
-export let DEFAULT_PURITY = resourcePurities[2]
+export let DEFAULT_PURITY = resourcePurities[1]
 
 export let DEFAULT_BELT = "belt5"
 
