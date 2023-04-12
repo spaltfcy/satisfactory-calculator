@@ -29,20 +29,25 @@ export class Item {
         this.uses.push(recipe)
     }
     produce(spec, rate, ignore) {
-        let totals = new Totals()
-        let recipe = spec.getRecipe(this)
-        let gives = recipe.gives(this)
-        rate = rate.div(gives)
-        totals.add(recipe, rate)
-        totals.updateHeight(recipe, 0)
-        if (ignore.has(recipe)) {
-            return totals
+        let total = new Totals()
+        let stack = [[this, rate, -1]]
+        while (true) {
+            if (!stack.length) break
+
+            let info = stack.shift()
+            let childRecipe = spec.getRecipe(info[0])
+            let childRate = info[1].div(childRecipe.gives(info[0]))
+            let childTotals = new Totals()
+
+            childTotals.add(childRecipe, childRate)
+            childTotals.updateHeight(childRecipe, info[2])
+            total.combine(childTotals)
+
+            if (ignore.has(childRecipe)) continue
+            for (let ing of childRecipe.ingredients) 
+                stack.push([ing.item, childRate.mul(ing.amount), info[2] + 1])
         }
-        for (let ing of recipe.ingredients) {
-            let subtotals = ing.item.produce(spec, rate.mul(ing.amount), ignore)
-            totals.combine(subtotals)
-        }
-        return totals
+        return total
     }
     iconPath() {
         return "images/" + this.img
