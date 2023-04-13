@@ -16,16 +16,17 @@ import { getBuildings } from "./building.js"
 import { spec } from "./factory.js"
 import { loadSettings } from "./fragment.js"
 import { getItems } from "./item.js"
-import { getRecipes } from "./recipe.js"
+import { getRecipes, getAltRecipesAndItemNames } from "./recipe.js"
 import { renderSettings } from "./settings.js"
 
 function loadData(settings) {
     d3.json("data/data.json").then(function(data) {
         let items = getItems(data)
         let recipes = getRecipes(data, items)
+        let altRecipesAndItemNames = getAltRecipesAndItemNames(data)
         let buildings = getBuildings(data)
         let belts = getBelts(data)
-        spec.setData(items, recipes, buildings, belts)
+        spec.setData(items, recipes, altRecipesAndItemNames, buildings, belts)
 
         renderSettings(settings)
 
