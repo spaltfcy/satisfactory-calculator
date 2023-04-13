@@ -19,7 +19,7 @@ import { BuildTarget } from "./target.js"
 import { Totals } from "./totals.js"
 import { renderTotals } from "./visualize.js"
 
-const DEFAULT_ITEM_KEY = "Desc_ComputerSuper_C"
+const DEFAULT_ITEM_KEY = "ComputerSuper"
 
 let minerCategories = new Set(["mineral", "oil", "water", "gas"])
 
@@ -54,6 +54,7 @@ class FactorySpecification {
 
         // Map item to recipe
         this.altRecipes = new Map()
+        this.altRecipesAndItemNames = new Map()
 
         this.belt = null
 
@@ -61,7 +62,7 @@ class FactorySpecification {
 
         this.format = new Formatter()
     }
-    setData(items, recipes, buildings, belts) {
+    setData(items, recipes, altRecipesAndItemNames, buildings, belts) {
         this.items = items
         let tierMap = new Map()
         for (let [itemKey, item] of items) {
@@ -78,6 +79,7 @@ class FactorySpecification {
         }
         this.itemTiers.sort((a, b) => a[0].tier - b[0].tier)
         this.recipes = recipes
+        this.altRecipesAndItemNames = altRecipesAndItemNames
         this.buildings = new Map()
         for (let building of buildings) {
             let category = this.buildings.get(building.category)
