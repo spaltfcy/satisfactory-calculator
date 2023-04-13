@@ -66,7 +66,7 @@ export function formatSettings() {
 
     let alt = []
     for (let [item, recipe] of spec.altRecipes) {
-        alt.push(recipe.key)
+        alt.push(recipe.name.replace(/\s/g, "_").replace(/Alternate/g, ""))
     }
     if (alt.length > 0) {
         settings += "&alt=" + alt.join(",")
@@ -84,13 +84,13 @@ export function formatSettings() {
     if (minerStrings.length > 0) {
         settings += "&miners=" + minerStrings.join(",")
     }
-
+    settings = urlCompress(settings)
     return settings
 }
 
 export function loadSettings(fragment) {
     let settings = new Map()
-    fragment = fragment.substr(1)
+    fragment = urlExpand(fragment)
     let pairs = fragment.split("&")
     for (let pair of pairs) {
         let i = pair.indexOf("=")
@@ -102,4 +102,13 @@ export function loadSettings(fragment) {
         settings.set(name, value)
     }
     return settings
+}
+
+function urlCompress(str){
+    return URLCompressor.compress(str)
+}
+
+function urlExpand(str){
+    str = str.slice(1)
+    return URLCompressor.expand(str) ?? ""
 }
