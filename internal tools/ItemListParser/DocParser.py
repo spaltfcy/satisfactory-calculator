@@ -6,9 +6,9 @@ CheckAvailableImages = True
 IgnoredBuildings = ["Build_Converter_C", "FGBuildGun", "BP_BuildGun_C", "BP_WorkshopComponent_C", 
     "BP_WorkBenchComponent_C", "FGBuildableAutomatedWorkBench", "Build_AutomatedWorkBench_C"
 ]
-IgnoredItems = ["Desc_Gift_C", "Desc_XmasBranch_C", "Desc_CandyCane_C", "Desc_XmasBow_C", "Desc_Snow_C",
-    "Desc_XmasBall1_C", "Desc_XmasBall3_C", "Desc_XmasBall2_C", "Desc_XmasBall4_C", "Desc_XmasBallCluster_C",
-    "Desc_XmasWreath_C", "Desc_XmasStar_C", "Desc_SnowballProjectile_C", "Desc_UraniumPellet_C"
+IgnoredItems = ["Gift_C", "Desc_XmasBranch_C", "Desc_CandyCane_C", "Desc_XmasBow_C", "Desc_Snow",
+    "XmasBall1_C", "Desc_XmasBall3_C", "Desc_XmasBall2_C", "Desc_XmasBall4_C", "Desc_XmasBallCluster",
+    "XmasWreath_C", "Desc_XmasStar_C", "Desc_SnowballProjectile_C", "Desc_UraniumPellet"
 ]
 FluidDivider = 1000
 
@@ -274,51 +274,51 @@ data['recipes'] = recipes
 # Hard code for now
 data['resources'] = [
     {
-        "key_name": "Desc_OreIron_C",
+        "key_name": "OreIron",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_OreCopper_C",
+        "key_name": "OreCopper",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_Coal_C",
+        "key_name": "Coal",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_Stone_C",
+        "key_name": "Stone",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_OreGold_C",
+        "key_name": "OreGold",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_Sulfur_C",
+        "key_name": "Sulfur",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_RawQuartz_C",
+        "key_name": "RawQuartz",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_LiquidOil_C",
+        "key_name": "LiquidOil",
         "category": "oil"
     },
     {
-        "key_name": "Desc_OreBauxite_C",
+        "key_name": "OreBauxite",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_OreUranium_C",
+        "key_name": "OreUranium",
         "category": "mineral"
     },
     {
-        "key_name": "Desc_Water_C",
+        "key_name": "Water",
         "category": "water"
     },
     {
-        "key_name": "Desc_NitrogenGas_C",
+        "key_name": "NitrogenGas",
         "category": "gas"
     }
 ]
