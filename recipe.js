@@ -44,7 +44,7 @@ class Recipe {
     }
 }
 
-function makeRecipe(data, items, d) {
+function makeRecipe(items, d) {
     let time = Rational.from_float(d.time)
     let [item_key, amount] = d.product
     let item = items.get(item_key)
@@ -76,7 +76,7 @@ export function getRecipes(data, items) {
     }
     for (let d of data.recipes) {
         if(!keys.includes(d.key_name)) {
-            recipes.set(d.key_name, makeRecipe(data, items, d))
+            recipes.set(d.key_name, makeRecipe(items, d))
         }
     }
     for (let [itemKey, item] of items) {
@@ -85,4 +85,14 @@ export function getRecipes(data, items) {
         }
     }
     return recipes
+}
+
+export function getAltRecipesAndItemNames(data) {
+    let altRecipesAndItemNames = new Map()
+    for (let d of data.recipes) {
+        if(d.name.indexOf("Alternate:") >= 0) {
+            altRecipesAndItemNames.set(d.name, d.key_name)
+        }
+    }
+    return altRecipesAndItemNames
 }
