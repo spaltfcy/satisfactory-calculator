@@ -204,11 +204,15 @@ function renderIngredient(ingSpan) {
 }
 
 function renderAltRecipes(settings) {
-    spec.altRecipes = new Map()
     if (settings.has("alt")) {
         let alt = settings.get("alt").split(",")
         for (let recipeKey of alt) {
-            let recipe = spec.recipes.get(recipeKey)
+            let name = "Alternate" + recipeKey.replace(/_/g," ")
+            let itemName = spec.altRecipesAndItemNames.get(name)
+            let item = spec.items.get(itemName)
+            let recipe = Object.values(item.recipes).find(val => val.name == name)
+            if(recipe == undefined) continue
+
             spec.setRecipe(recipe)
         }
     }
