@@ -660,7 +660,7 @@
         },
         {
             "name": "AI Limiter",
-            "key_name": "CircuitBoardHighSpeed",
+            "key_name": "AILimiter",
             "tier": -1,
             "stack_size": 100,
             "image": "ai-limiter.png"
@@ -856,17 +856,10 @@
         },
         {
             "name": "Black Powder",
-            "key_name": "Gunpowder",
+            "key_name": "BlackPowder",
             "tier": -1,
             "stack_size": 100,
             "image": "black-powder.png"
-        },
-        {
-            "name": "Nobelisk",
-            "key_name": "NobeliskExplosive",
-            "tier": -1,
-            "stack_size": 50,
-            "image": "nobelisk.png"
         },
         {
             "name": "Thermal Propulsion Rocket",
@@ -895,13 +888,6 @@
             "tier": -1,
             "stack_size": 50,
             "image": "alien-carapace.png"
-        },
-        {
-            "name": "Spiked Rebar",
-            "key_name": "SpikedRebar",
-            "tier": -1,
-            "stack_size": 50,
-            "image": "spiked-rebar.png"
         },
         {
             "name": "Alien Organs",
@@ -953,11 +939,95 @@
             "image": "purple-power-slug.png"
         },
         {
-            "name": "Rifle Cartridge",
-            "key_name": "CartridgeStandard",
+            "name": "Smokeless Powder",
+            "key_name": "SmokelessPowder",
             "tier": -1,
             "stack_size": 100,
-            "image": "rifle-cartridge.png"
+            "image": "smokeless-powder.png"
+        },
+        {
+            "name": "Rifle Ammo",
+            "key_name": "RifleAmmo",
+            "tier": -1,
+            "stack_size": 500,
+            "image": "rifle-ammo.png"
+        },
+        {
+            "name": "Homing Rifle Ammo",
+            "key_name": "HomingRifleAmmo",
+            "tier": -1,
+            "stack_size": 500,
+            "image": "homing-rifle-ammo.png"
+        },
+        {
+            "name": "Turbo Rifle Ammo",
+            "key_name": "TurboRifleAmmo",
+            "tier": -1,
+            "stack_size": 500,
+            "image": "turbo-rifle-ammo.png"
+        },
+        {
+            "name": "Nobelisk",
+            "key_name": "Nobelisk",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "nobelisk.png"
+        },
+        {
+            "name": "Gas Nobelisk",
+            "key_name": "GasNobelisk",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "gas-nobelisk.png"
+        },
+        {
+            "name": "Cluster Nobelisk",
+            "key_name": "ClusterNobelisk",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "cluster-nobelisk.png"
+        },
+        {
+            "name": "Pulse Nobelisk",
+            "key_name": "PulseNobelisk",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "pulse-nobelisk.png"
+        },
+        {
+            "name": "Nuke Nobelisk",
+            "key_name": "NukeNobelisk",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "nuke-nobelisk.png"
+        },
+        {
+            "name": "Iron Rebar",
+            "key_name": "IronRebar",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "iron-rebar.png"
+        },
+        {
+            "name": "Stun Rebar",
+            "key_name": "StunRebar",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "stun-rebar.png"
+        },
+        {
+            "name": "Shatter Rebar",
+            "key_name": "ShatterRebar",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "shatter-rebar.png"
+        },
+        {
+            "name": "Explosive Rebar",
+            "key_name": "ExplosiveRebar",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "explosive-rebar.png"
         }
     ],
     "recipes": [
@@ -1967,7 +2037,7 @@
         },
         {
             "name": "AI Limiter",
-            "key_name": "CircuitBoardHighSpeed",
+            "key_name": "AILimiter",
             "category": "crafting0",
             "time": 12,
             "ingredients": [
@@ -1981,7 +2051,7 @@
                 ]
             ],
             "product": [
-                "CircuitBoardHighSpeed",
+                "AILimiter",
                 1
             ]
         },
@@ -2132,7 +2202,7 @@
                     2
                 ],
                 [
-                    "CircuitBoardHighSpeed",
+                    "AILimiter",
                     2
                 ],
                 [
@@ -2468,7 +2538,7 @@
                     3
                 ],
                 [
-                    "CircuitBoardHighSpeed",
+                    "AILimiter",
                     2
                 ]
             ],
@@ -2543,12 +2613,12 @@
         },
         {
             "name": "Nobelisk",
-            "key_name": "NobeliskExplosive",
+            "key_name": "Nobelisk",
             "category": "crafting0",
             "time": 20,
             "ingredients": [
                 [
-                    "Gunpowder",
+                    "BlackPowder",
                     5
                 ],
                 [
@@ -2557,7 +2627,7 @@
                 ]
             ],
             "product": [
-                "NobeliskExplosive",
+                "Nobelisk",
                 1
             ]
         },
@@ -2762,22 +2832,6 @@
             ]
         },
         {
-            "name": "Spiked Rebar",
-            "key_name": "SpikedRebar",
-            "category": "crafting0",
-            "time": 4,
-            "ingredients": [
-                [
-                    "IronRod",
-                    1
-                ]
-            ],
-            "product": [
-                "SpikedRebar",
-                1
-            ]
-        },
-        {
             "name": "Biomass (Alien Organs)",
             "key_name": "GenericBiomass",
             "category": "crafting0",
@@ -2891,7 +2945,7 @@
         },
         {
             "name": "Black Powder",
-            "key_name": "Gunpowder",
+            "key_name": "BlackPowder",
             "category": "crafting0",
             "time": 8,
             "ingredients": [
@@ -2905,36 +2959,8 @@
                 ]
             ],
             "product": [
-                "Gunpowder",
+                "BlackPowder",
                 1
-            ]
-        },
-        {
-            "name": "Rifle Cartridge",
-            "key_name": "CartridgeStandard",
-            "category": "crafting0",
-            "time": 20,
-            "ingredients": [
-                [
-                    "BP_EquipmentDescriptorBeacon_C",
-                    1
-                ],
-                [
-                    "SteelPipe",
-                    10
-                ],
-                [
-                    "Gunpowder",
-                    10
-                ],
-                [
-                    "Rubber",
-                    10
-                ]
-            ],
-            "product": [
-                "CartridgeStandard",
-                5
             ]
         },
         {
@@ -4232,7 +4258,7 @@
                     7
                 ],
                 [
-                    "CircuitBoardHighSpeed",
+                    "AILimiter",
                     1
                 ]
             ],
@@ -4263,7 +4289,7 @@
         },
         {
             "name": "Alternate: Fine Black Powder",
-            "key_name": "Gunpowder",
+            "key_name": "BlackPowder",
             "category": "crafting0",
             "time": 16,
             "ingredients": [
@@ -4277,7 +4303,7 @@
                 ]
             ],
             "product": [
-                "Gunpowder",
+                "BlackPowder",
                 4
             ]
         },
@@ -4459,12 +4485,12 @@
         },
         {
             "name": "Alternate: Seismic Nobelisk",
-            "key_name": "NobeliskExplosive",
+            "key_name": "Nobelisk",
             "category": "crafting0",
             "time": 40,
             "ingredients": [
                 [
-                    "Gunpowder",
+                    "BlackPowder",
                     8
                 ],
                 [
@@ -4477,7 +4503,7 @@
                 ]
             ],
             "product": [
-                "NobeliskExplosive",
+                "Nobelisk",
                 4
             ]
         },
@@ -4783,6 +4809,282 @@
             "product": [
                 "Wire",
                 8
+            ]
+        },
+        {
+            "name": "Smokeless Powder",
+            "key_name": "SmokelessPowder",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "BlackPowder",
+                    2
+                ],
+                [
+                    "HeavyOilResidue",
+                    1
+                ]
+            ],
+            "product": [
+                "SmokelessPowder",
+                2
+            ]
+        },
+        {
+            "name": "Rifle Ammo",
+            "key_name": "RifleAmmo",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "CopperSheet",
+                    3
+                ],
+                [
+                    "SmokelessPowder",
+                    2
+                ]
+            ],
+            "product": [
+                "RifleAmmo",
+                15
+            ]
+        },
+        {
+            "name": "Homing Rifle Ammo",
+            "key_name": "HomingRifleAmmo",
+            "category": "crafting0",
+            "time": 24,
+            "ingredients": [
+                [
+                    "RifleAmmo",
+                    20
+                ],
+                [
+                    "HighSpeedConnector",
+                    1
+                ]
+            ],
+            "product": [
+                "HomingRifleAmmo",
+                10
+            ]
+        },
+        {
+            "name": "Turbo Rifle Ammo",
+            "key_name": "TurboRifleAmmo",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "RifleAmmo",
+                    25
+                ],
+                [
+                    "AluminumCasing",
+                    3
+                ],
+                [
+                    "LiquidTurboFuel",
+                    3
+                ]
+            ],
+            "product": [
+                "TurboRifleAmmo",
+                50
+            ]
+        },
+        {
+            "name": "Turbo Rifle Ammo(Packaged Turbofuel)",
+            "key_name": "TurboRifleAmmo(PackagedTurbofuel)",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "RifleAmmo",
+                    25
+                ],
+                [
+                    "AluminumCasing",
+                    3
+                ],
+                [
+                    "TurboFuel",
+                    3
+                ]
+            ],
+            "product": [
+                "TurboRifleAmmo",
+                50
+            ]
+        },
+        {
+            "name": "Gas Nobelisk",
+            "key_name": "GasNobelisk",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "Nobelisk",
+                    1
+                ],
+                [
+                    "GenericBiomass",
+                    10
+                ]
+            ],
+            "product": [
+                "GasNobelisk",
+                1
+            ]
+        },
+        {
+            "name": "Cluster Nobelisk",
+            "key_name": "ClusterNobelisk",
+            "category": "crafting0",
+            "time": 24,
+            "ingredients": [
+                [
+                    "Nobelisk",
+                    3
+                ],
+                [
+                    "SmokelessPowder",
+                    4
+                ]
+            ],
+            "product": [
+                "ClusterNobelisk",
+                1
+            ]
+        },
+        {
+            "name": "Pulse Nobelisk",
+            "key_name": "PulseNobelisk",
+            "category": "crafting0",
+            "time": 60,
+            "ingredients": [
+                [
+                    "Nobelisk",
+                    5
+                ],
+                [
+                    "CrystalOscillator",
+                    1
+                ]
+            ],
+            "product": [
+                "PulseNobelisk",
+                5
+            ]
+        },
+        {
+            "name": "Nuke Nobelisk",
+            "key_name": "NukeNobelisk",
+            "category": "crafting0",
+            "time": 120,
+            "ingredients": [
+                [
+                    "Nobelisk",
+                    5
+                ],
+                [
+                    "UraniumCell",
+                    20
+                ],
+                [
+                    "SmokelessPowder",
+                    10
+                ],
+                [
+                    "AILimiter",
+                    6
+                ]
+            ],
+            "product": [
+                "NukeNobelisk",
+                1
+            ]
+        },
+        {
+            "name": "Iron Rebar",
+            "key_name": "IronRebar",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "IronRod",
+                    1
+                ]
+            ],
+            "product": [
+                "IronRebar",
+                1
+            ]
+        },
+        {
+            "name": "Stun Rebar",
+            "key_name": "StunRebar",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "IronRebar",
+                    1
+                ],
+                [
+                    "Quickwire",
+                    5
+                ]
+            ],
+            "product": [
+                "StunRebar",
+                1
+            ]
+        },
+        {
+            "name": "Shatter Rebar",
+            "key_name": "ShatterRebar",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "IronRebar",
+                    2
+                ],
+                [
+                    "QuartzCrystal",
+                    3
+                ]
+            ],
+            "product": [
+                "ShatterRebar",
+                1
+            ]
+        },
+        {
+            "name": "Explosive Rebar",
+            "key_name": "ExplosiveRebar",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "IronRebar",
+                    2
+                ],
+                [
+                    "SmokelessPowder",
+                    2
+                ],
+                [
+                    "SteelPipe",
+                    2
+                ]
+            ],
+            "product": [
+                "ExplosiveRebar",
+                1
             ]
         }
     ],

@@ -31,7 +31,11 @@ class Recipe {
             ing.item.addUse(this)
         }
         this.product = product
-        product.item.addRecipe(this)
+        try{
+            product.item.addRecipe(this)
+        }catch{
+            console.log(this.name)
+        }
     }
     gives(item) {
         if (this.product.item === item) {
