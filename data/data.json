@@ -143,7 +143,7 @@
             "category": "gas",
             "base_rate": 60,
             "power": 0,
-            "image": "unknown.png"
+            "image": "resource_well_pressurizer.png"
         }
     ],
     "items": [
