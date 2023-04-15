@@ -747,7 +747,7 @@
             "key_name": "SpaceElevatorPart_7",
             "tier": -1,
             "stack_size": 50,
-            "image": "unknown.png"
+            "image": "assembly-director-dystem.png"
         },
         {
             "name": "Fused Modular Frame",
@@ -838,7 +838,7 @@
             "key_name": "SpaceElevatorPart_6",
             "tier": -1,
             "stack_size": 50,
-            "image": "unknown.png"
+            "image": "magnetic-field-generator.png"
         },
         {
             "name": "Turbo Motor",
@@ -873,7 +873,7 @@
             "key_name": "SpaceElevatorPart_8",
             "tier": -1,
             "stack_size": 50,
-            "image": "unknown.png"
+            "image": "thermal-propulsion-rocket.png"
         },
         {
             "name": "Gas Filter",
