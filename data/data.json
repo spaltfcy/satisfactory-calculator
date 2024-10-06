@@ -5316,46 +5316,6 @@
             ]
         },
         {
-            "name": "Ficsite Ingot (Iron)",
-            "key_name": "FicsiteIngotIron",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    4
-                ],
-                [
-                    "IronIngot",
-                    24
-                ]
-            ],
-            "product": [
-                "FicsiteIngot",
-                1
-            ]
-        },
-        {
-            "name": "Nitrogen Gas (Bauxite)",
-            "key_name": "NitrogenGas",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreBauxite",
-                    10
-                ]
-            ],
-            "product": [
-                "NitrogenGas",
-                12
-            ]
-        },
-        {
             "name": "Alternate: Iron Pipe",
             "key_name": "SteelPipe",
             "category": "crafting0",
@@ -5389,126 +5349,6 @@
             "product": [
                 "IronPlate",
                 3
-            ]
-        },
-        {
-            "name": "Iron Ore (Limestone)",
-            "key_name": "OreIron",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Stone",
-                    24
-                ]
-            ],
-            "product": [
-                "OreIron",
-                12
-            ]
-        },
-        {
-            "name": "Limestone (Sulfur)",
-            "key_name": "Stone",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Sulfur",
-                    2
-                ]
-            ],
-            "product": [
-                "Stone",
-                12
-            ]
-        },
-        {
-            "name": "Coal (Iron)",
-            "key_name": "Coal",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreIron",
-                    18
-                ]
-            ],
-            "product": [
-                "Coal",
-                12
-            ]
-        },
-        {
-            "name": "Coal (Limestone)",
-            "key_name": "Coal",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Stone",
-                    36
-                ]
-            ],
-            "product": [
-                "Coal",
-                12
-            ]
-        },
-        {
-            "name": "Sulfur (Iron)",
-            "key_name": "Sulfur",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreIron",
-                    30
-                ]
-            ],
-            "product": [
-                "Sulfur",
-                12
-            ]
-        },
-        {
-            "name": "Uranium Ore (Bauxite)",
-            "key_name": "OreUranium",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreBauxite",
-                    48
-                ]
-            ],
-            "product": [
-                "OreUranium",
-                12
             ]
         },
         {
@@ -5555,206 +5395,7 @@
                 7
             ]
         },
-        {
-            "name": "Copper Ore (Quartz)",
-            "key_name": "OreCopper",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "RawQuartz",
-                    10
-                ]
-            ],
-            "product": [
-                "OreCopper",
-                12
-            ]
-        },
-        {
-            "name": "Copper Ore (Sulfur)",
-            "key_name": "OreCopper",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Sulfur",
-                    12
-                ]
-            ],
-            "product": [
-                "OreCopper",
-                12
-            ]
-        },
-        {
-            "name": "Bauxite (Copper)",
-            "key_name": "OreBauxite",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreCopper",
-                    18
-                ]
-            ],
-            "product": [
-                "OreBauxite",
-                12
-            ]
-        },
-        {
-            "name": "Caterium Ore (Copper)",
-            "key_name": "OreGold",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreCopper",
-                    15
-                ]
-            ],
-            "product": [
-                "OreGold",
-                12
-            ]
-        },
-        {
-            "name": "Caterium Ore (Quartz)",
-            "key_name": "OreGold",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "RawQuartz",
-                    12
-                ]
-            ],
-            "product": [
-                "OreCopper",
-                12
-            ]
-        },
-        {
-            "name": "Bauxite (Caterium)",
-            "key_name": "OreBauxite",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreGold",
-                    15
-                ]
-            ],
-            "product": [
-                "OreBauxite",
-                12
-            ]
-        },
-        {
-            "name": "Nitrogen Gas (Caterium)",
-            "key_name": "NitrogenGas",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreGold",
-                    12
-                ]
-            ],
-            "product": [
-                "NitrogenGas",
-                12
-            ]
-        },
-        {
-            "name": "Raw Quartz (Bauxite)",
-            "key_name": "RawQuartz",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "OreBauxite",
-                    10
-                ]
-            ],
-            "product": [
-                "RawQuartz",
-                12
-            ]
-        },
-        {
-            "name": "Raw Quartz (Coal)",
-            "key_name": "RawQuartz",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Coal",
-                    24
-                ]
-            ],
-            "product": [
-                "RawQuartz",
-                12
-            ]
-        },
-        {
-            "name": "Sulfur (Coal)",
-            "key_name": "Sulfur",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    1
-                ],
-                [
-                    "Coal",
-                    20
-                ]
-            ],
-            "product": [
-                "Sulfur",
-                12
-            ]
-        },
+        
         {
             "name": "Alternate: Leached Copper Ingot",
             "key_name": "OreCopper",
@@ -5802,7 +5443,7 @@
             "time": 6,
             "ingredients": [
                 [
-                    "SAMFluctuator",
+                    "SAMIngot",
                     6
                 ],
                 [
@@ -5993,66 +5634,6 @@
             "product": [
                 "RocketFuel",
                 5
-            ]
-        },
-        {
-            "name": "Ficsite Ingot (Aluminum)",
-            "key_name": "FicsiteIngot",
-            "category": "crafting0",
-            "time": 2,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    2
-                ],
-                [
-                    "AluminumIngot",
-                    4
-                ]
-            ],
-            "product": [
-                "FicsiteIngot",
-                1
-            ]
-        },
-        {
-            "name": "Ficsite Ingot (Caterium)",
-            "key_name": "FicsiteIngot",
-            "category": "crafting0",
-            "time": 4,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    3
-                ],
-                [
-                    "GoldIngot",
-                    4
-                ]
-            ],
-            "product": [
-                "FicsiteIngot",
-                1
-            ]
-        },
-        {
-            "name": "Ficsite Ingot (Iron)",
-            "key_name": "FicsiteIngot",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    4
-                ],
-                [
-                    "IronIngot",
-                    24
-                ]
-            ],
-            "product": [
-                "FicsiteIngot",
-                1
             ]
         },
         {
@@ -6748,6 +6329,426 @@
             "product": [
                 "SAMIngot",
                 1
+            ]
+        },
+        {
+            "name": "Uranium Ore (Bauxite)",
+            "key_name": "OreUranium",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    48
+                ]
+            ],
+            "product": [
+                "OreUranium",
+                12
+            ]
+        },
+        {
+            "name": "Copper Ore (Quartz)",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "RawQuartz",
+                    10
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Copper Ore (Sulfur)",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Sulfur",
+                    12
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Bauxite (Copper)",
+            "key_name": "OreBauxite",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreCopper",
+                    18
+                ]
+            ],
+            "product": [
+                "OreBauxite",
+                12
+            ]
+        },
+        {
+            "name": "Caterium Ore (Copper)",
+            "key_name": "OreGold",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreCopper",
+                    15
+                ]
+            ],
+            "product": [
+                "OreGold",
+                12
+            ]
+        },
+        {
+            "name": "Caterium Ore (Quartz)",
+            "key_name": "OreGold",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "RawQuartz",
+                    12
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Bauxite (Caterium)",
+            "key_name": "OreBauxite",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreGold",
+                    15
+                ]
+            ],
+            "product": [
+                "OreBauxite",
+                12
+            ]
+        },
+        {
+            "name": "Nitrogen Gas (Caterium)",
+            "key_name": "NitrogenGas",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreGold",
+                    12
+                ]
+            ],
+            "product": [
+                "NitrogenGas",
+                12
+            ]
+        },
+        {
+            "name": "Raw Quartz (Bauxite)",
+            "key_name": "RawQuartz",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    10
+                ]
+            ],
+            "product": [
+                "RawQuartz",
+                12
+            ]
+        },
+        {
+            "name": "Raw Quartz (Coal)",
+            "key_name": "RawQuartz",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Coal",
+                    24
+                ]
+            ],
+            "product": [
+                "RawQuartz",
+                12
+            ]
+        },
+        {
+            "name": "Sulfur (Coal)",
+            "key_name": "Sulfur",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Coal",
+                    20
+                ]
+            ],
+            "product": [
+                "Sulfur",
+                12
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Aluminum)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    2
+                ],
+                [
+                    "AluminumIngot",
+                    4
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Caterium)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    3
+                ],
+                [
+                    "GoldIngot",
+                    4
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    4
+                ],
+                [
+                    "IronIngot",
+                    24
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "key_name": "FicsiteIngotIron",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    4
+                ],
+                [
+                    "IronIngot",
+                    24
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Nitrogen Gas (Bauxite)",
+            "key_name": "NitrogenGas",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    10
+                ]
+            ],
+            "product": [
+                "NitrogenGas",
+                12
+            ]
+        },
+        {
+            "name": "Iron Ore (Limestone)",
+            "key_name": "OreIron",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Stone",
+                    24
+                ]
+            ],
+            "product": [
+                "OreIron",
+                12
+            ]
+        },
+        {
+            "name": "Limestone (Sulfur)",
+            "key_name": "Stone",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Sulfur",
+                    2
+                ]
+            ],
+            "product": [
+                "Stone",
+                12
+            ]
+        },
+        {
+            "name": "Coal (Iron)",
+            "key_name": "Coal",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreIron",
+                    18
+                ]
+            ],
+            "product": [
+                "Coal",
+                12
+            ]
+        },
+        {
+            "name": "Coal (Limestone)",
+            "key_name": "Coal",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Stone",
+                    36
+                ]
+            ],
+            "product": [
+                "Coal",
+                12
+            ]
+        },
+        {
+            "name": "Sulfur (Iron)",
+            "key_name": "Sulfur",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreIron",
+                    30
+                ]
+            ],
+            "product": [
+                "Sulfur",
+                12
             ]
         }
     ],
