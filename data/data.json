@@ -29,6 +29,12 @@
             "key_name": "belt5",
             "rate": 780,
             "image": "conveyor-belt-mk-5.png"
+        },
+        {
+            "name": "Conveyor Belt Mk.6",
+            "key_name": "belt6",
+            "rate": 1200,
+            "image": "conveyor-belt-mk-6.png"
         }
     ],
     "buildings": [
@@ -94,6 +100,20 @@
             "category": "crafting0",
             "power": 0,
             "image": "particle-accelerator.png"
+        },
+        {
+            "name": "Converter",
+            "key_name": "Converter",
+            "category": "crafting0",
+            "power": 0,
+            "image": "Converter.png"
+        },
+        {
+            "name": "Quantum Encoder",
+            "key_name": "Quantum-Encoder",
+            "category": "crafting0",
+            "power": 0,
+            "image": "quantum-encoder.png"
         }
     ],
     "miners": [
@@ -338,7 +358,7 @@
         },
         {
             "name": "Smart Plating",
-            "key_name": "SmartPlating",
+            "key_name": "SpaceElevatorPart_1",
             "tier": -1,
             "stack_size": 50,
             "image": "smart-plating.png"
@@ -576,7 +596,7 @@
         },
         {
             "name": "Versatile Framework",
-            "key_name": "VersatileFramework",
+            "key_name": "SpaceElevatorPart_2",
             "tier": -1,
             "stack_size": 50,
             "image": "versatile-framework.png"
@@ -660,7 +680,7 @@
         },
         {
             "name": "AI Limiter",
-            "key_name": "AILimiter",
+            "key_name": "CircuitBoardHighSpeed",
             "tier": -1,
             "stack_size": 100,
             "image": "ai-limiter.png"
@@ -733,7 +753,7 @@
             "key_name": "ComputerSuper",
             "tier": -1,
             "stack_size": 50,
-            "image": "supercomputer.png"
+            "image": "supercomputer2.png"
         },
         {
             "name": "Packaged Sulfuric Acid",
@@ -848,13 +868,6 @@
             "image": "turbo-motor.png"
         },
         {
-            "name": "Beacon",
-            "key_name": "BP_EquipmentDescriptorBeacon_C",
-            "tier": -1,
-            "stack_size": 100,
-            "image": "beacon.png"
-        },
-        {
             "name": "Black Powder",
             "key_name": "BlackPowder",
             "tier": -1,
@@ -876,25 +889,53 @@
             "image": "gas-filter.png"
         },
         {
-            "name": "Iodine Infused Filter",
+            "name": "Iodine-Infused Filter",
             "key_name": "HazmatFilter",
             "tier": -1,
             "stack_size": 50,
             "image": "iodine-infused-filter.png"
         },
         {
-            "name": "Alien Carapace",
+            "name": "Hog Remains",
             "key_name": "HogParts",
             "tier": -1,
             "stack_size": 50,
-            "image": "alien-carapace.png"
+            "image": "hog-remains.png"
         },
         {
-            "name": "Alien Organs",
+            "name": "Spitter Remains",
             "key_name": "SpitterParts",
             "tier": -1,
             "stack_size": 50,
-            "image": "alien-organs.png"
+            "image": "spitter-remains.png"
+        },
+        {
+            "name": "Stinger Remains",
+            "key_name": "StingerParts",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "stinger-remains.png"
+        },
+        {
+            "name": "Hatcher Remains",
+            "key_name": "HatcherParts",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "hatcher-remains.png"
+        },
+        {
+            "name": "Alien Protein",
+            "key_name": "AlienProtein",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "alien-protein.png"
+        },
+        {
+            "name": "Alien DNA Capsule",
+            "key_name": "AlienDNACapsule",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "alien-dna-capsule.png"
         },
         {
             "name": "Flower Petals",
@@ -1028,6 +1069,181 @@
             "tier": -1,
             "stack_size": 100,
             "image": "explosive-rebar.png"
+        },
+        {
+            "name": "SAM",
+            "key_name": "SAM",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "sam.png"
+        },
+        {
+            "name": "Diamonds",
+            "key_name": "Diamond",
+            "tier": -1,
+            "stack_size": 200,
+            "image": "diamonds.png"
+        },
+        {
+            "name": "Time Crystal",
+            "key_name": "TimeCrystal",
+            "tier": -1,
+            "stack_size": 200,
+            "image": "time-crystal.png"
+        },
+        {
+            "name": "Ficsite Ingot",
+            "key_name": "FicsiteIngot",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "ficsite-ingot.png"
+        },
+        {
+            "name": "Ficsite Trigon",
+            "key_name": "FicsiteMesh",
+            "tier": -1,
+            "stack_size": 200,
+            "image": "ficsite-trigon.png"
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "key_name": "SpaceElevatorPart_10",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "biochemical-sculptor.png"
+        },
+        {
+            "name": "Excited Photonic Matter",
+            "key_name": "QuantumEnergy",
+            "tier": -1,
+            "stack_size": 60,
+            "image": "excited-photonic-matter.png"
+        },
+        {
+            "name": "Dark Matter Residue",
+            "key_name": "DarkEnergy",
+            "tier": -1,
+            "stack_size": 60,
+            "image": "dark-matter-residue.png"
+        },
+        {
+            "name": "Dark Matter Crystal",
+            "key_name": "DarkMatter",
+            "tier": -1,
+            "stack_size": 200,
+            "image": "dark-matter-crystal.png"
+        },
+        {
+            "name": "Superposition Oscillator",
+            "key_name": "QuantumOscillator",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "superposition-oscillator.png"
+        },
+        {
+            "name": "Neural-Quantum Processor",
+            "key_name": "TemporalProcessor",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "neural-quantum-processor.png"
+        },
+        {
+            "name": "AI Expansion Server",
+            "key_name": "SpaceElevatorPart_12",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "ai-expansion-server.png"
+        },
+        {
+            "name": "Singularity Cell",
+            "key_name": "SingularityCell",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "singularity-cell.png"
+        },
+        {
+            "name": "Ballistic Warp Drive",
+            "key_name": "SpaceElevatorPart_11",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "ballistic-warp-drive.png"
+        },
+        {
+            "name": "Ficsonium",
+            "key_name": "Ficsonium",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "ficsonium.png"
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "key_name": "FicsoniumFuelRod",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "ficsonium-fuel-rod.png"
+        },
+        {
+            "name": "Dissolved Silica",
+            "key_name": "DissolvedSilica",
+            "tier": -1,
+            "stack_size": 60,
+            "image": "dissolved-silica.png"
+        },
+        {
+            "name": "Rocket Fuel",
+            "key_name": "RocketFuel",
+            "tier": -1,
+            "stack_size": 60,
+            "image": "rocket-fuel.png"
+        },
+        {
+            "name": "Packaged Rocket Fuel",
+            "key_name": "PackagedRocketFuel",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "packaged-rocket-fuel.png"
+        },
+        {
+            "name": "Reanimated SAM",
+            "key_name": "SAMIngot",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "reanimated-sam.png"
+        },
+        {
+            "name": "SAM Fluctuator",
+            "key_name": "SAMFluctuator",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "sam-fluctuator.png"
+        },
+        {
+            "name": "Alien Power Matrix",
+            "key_name": "AlienPowerFuel",
+            "tier": -1,
+            "stack_size": 50,
+            "image": "alien-power-matrix.png"
+        },
+        {
+            "name": "Ionized Fuel",
+            "key_name": "IonizedFuel",
+            "tier": -1,
+            "stack_size": 60,
+            "image": "ionized-fuel.png"
+        },
+        {
+            "name": "Packaged Ionized Fuel",
+            "key_name": "PackagedIonizedFuel",
+            "tier": -1,
+            "stack_size": 100,
+            "image": "packaged-ionized-fuel.png"
+        },
+        {
+            "name": "Plutonium Waste",
+            "key_name": "PlutoniumWaste",
+            "tier": -1,
+            "stack_size": 500,
+            "image": "plutonium-waste.png"
         }
     ],
     "recipes": [
@@ -1409,7 +1625,7 @@
         },
         {
             "name": "Smart Plating",
-            "key_name": "SmartPlating",
+            "key_name": "SpaceElevatorPart_1",
             "category": "crafting0",
             "time": 30,
             "ingredients": [
@@ -1423,7 +1639,7 @@
                 ]
             ],
             "product": [
-                "SmartPlating",
+                "SpaceElevatorPart_1",
                 1
             ]
         },
@@ -1623,11 +1839,11 @@
             "ingredients": [
                 [
                     "NitrogenGas",
-                    24
+                    12
                 ],
                 [
                     "Water",
-                    6
+                    3
                 ],
                 [
                     "IronPlate",
@@ -1636,35 +1852,35 @@
             ],
             "product": [
                 "NitricAcid",
-                6
+                3
             ]
         },
         {
             "name": "Non-fissile Uranium",
             "key_name": "NonFissibleUranium",
             "category": "crafting0",
-            "time": 12,
+            "time": 24,
             "ingredients": [
                 [
                     "NuclearWaste",
                     15
                 ],
                 [
+                    "Silica",
+                    10
+                ],
+                [
                     "NitricAcid",
-                    3
+                    6
                 ],
                 [
                     "SulfuricAcid",
                     6
-                ],
-                [
-                    "Silica",
-                    5
                 ]
             ],
             "product": [
                     "NonFissibleUranium",
-                    10
+                    20
             ]
         },
         {
@@ -1711,7 +1927,7 @@
             "ingredients": [
                 [
                     "AluminumCasing",
-                    24
+                    32
                 ],
                 [
                     "CrystalOscillator",
@@ -1719,7 +1935,7 @@
                 ],
                 [
                     "Computer",
-                    1
+                    2
                 ]
             ],
             "product": [
@@ -1824,6 +2040,26 @@
             ]
         },
         {
+            "name": "Alternate: Fused Quartz Crystal",
+            "key_name": "QuartzCrystal",
+            "category": "crafting0",
+            "time": 20,
+            "ingredients": [
+                [
+                    "RawQuartz",
+                    25
+                ],
+                [
+                    "Coal",
+                    12
+                ]
+            ],
+            "product": [
+                "QuartzCrystal",
+                18
+            ]
+        },
+        {
             "name": "Crystal Oscillator",
             "key_name": "CrystalOscillator",
             "category": "crafting0",
@@ -1855,19 +2091,15 @@
             "ingredients": [
                 [
                     "CircuitBoard",
-                    10
+                    4
                 ],
                 [
                     "Cable",
-                    9
+                    8
                 ],
                 [
                     "Plastic",
-                    18
-                ],
-                [
-                    "Screw",
-                    52
+                    16
                 ]
             ],
             "product": [
@@ -1890,7 +2122,7 @@
                     15
                 ],
                 [
-                    "SmartPlating",
+                    "SpaceElevatorPart_1",
                     2
                 ]
             ],
@@ -1903,19 +2135,19 @@
             "name": "Adaptive Control Unit",
             "key_name": "SpaceElevatorPart_5",
             "category": "crafting0",
-            "time": 120,
+            "time": 60,
             "ingredients": [
                 [
                     "SpaceElevatorPart_3",
-                    15
+                    5
                 ],
                 [
                     "CircuitBoard",
-                    10
+                    5
                 ],
                 [
                     "ModularFrameHeavy",
-                    2
+                    1
                 ],
                 [
                     "Computer",
@@ -1924,7 +2156,7 @@
             ],
             "product": [
                 "SpaceElevatorPart_5",
-                2
+                1
             ]
         },
         {
@@ -1935,11 +2167,11 @@
             "ingredients": [
                 [
                     "SteelPlate",
-                    4
+                    3
                 ],
                 [
                     "Cement",
-                    5
+                    6
                 ]
             ],
             "product": [
@@ -1999,7 +2231,7 @@
                 ],
                 [
                     "SteelPipe",
-                    15
+                    20
                 ],
                 [
                     "SteelPlateReinforced",
@@ -2007,7 +2239,7 @@
                 ],
                 [
                     "Screw",
-                    100
+                    120
                 ]
             ],
             "product": [
@@ -2037,7 +2269,7 @@
         },
         {
             "name": "AI Limiter",
-            "key_name": "AILimiter",
+            "key_name": "CircuitBoardHighSpeed",
             "category": "crafting0",
             "time": 12,
             "ingredients": [
@@ -2051,7 +2283,7 @@
                 ]
             ],
             "product": [
-                "AILimiter",
+                "CircuitBoardHighSpeed",
                 1
             ]
         },
@@ -2129,7 +2361,7 @@
         },
         {
             "name": "Versatile Framework",
-            "key_name": "VersatileFramework",
+            "key_name": "SpaceElevatorPart_2",
             "category": "crafting0",
             "time": 24,
             "ingredients": [
@@ -2143,7 +2375,7 @@
                 ]
             ],
             "product": [
-                "VersatileFramework",
+                "SpaceElevatorPart_2",
                 2
             ]
         },
@@ -2175,7 +2407,7 @@
             "ingredients": [
                 [
                     "SulfuricAcid",
-                    2
+                    2.5
                 ],
                 [
                     "AluminaSolution",
@@ -2199,10 +2431,10 @@
             "ingredients": [
                 [
                     "Computer",
-                    2
+                    4
                 ],
                 [
-                    "AILimiter",
+                    "CircuitBoardHighSpeed",
                     2
                 ],
                 [
@@ -2307,20 +2539,20 @@
             "name": "Heat Sink",
             "key_name": "HeatSink",
             "category": "crafting0",
-            "time": 12,
+            "time": 8,
             "ingredients": [
                 [
                     "AluminumPlate",
-                    8
+                    5
                 ],
                 [
                     "CopperSheet",
-                    9
+                    3
                 ]
             ],
             "product": [
                 "HeatSink",
-                2
+                1
             ]
         },
         {
@@ -2387,15 +2619,15 @@
             "name": "Encased Plutonium Cell",
             "key_name": "PlutoniumCell",
             "category": "crafting0",
-            "time": 6,
+            "time": 12,
             "ingredients": [
                 [
                     "PlutoniumPellet",
-                    1
+                    2
                 ],
                 [
                     "Cement",
-                    2
+                    4
                 ]
             ],
             "product": [
@@ -2440,7 +2672,7 @@
             ]
         },
         {
-            "name": "Plutonium Pellets",
+            "name": "Plutonium Pellet",
             "key_name": "PlutoniumPellet",
             "category": "crafting0",
             "time": 60,
@@ -2451,7 +2683,7 @@
                 ],
                 [
                     "NuclearWaste",
-                    50
+                    25
                 ]
             ],
             "product": [
@@ -2463,23 +2695,23 @@
             "name": "Plutonium Fuel Rod",
             "key_name": "PlutoniumFuelRod",
             "category": "crafting0",
-            "time": 120,
+            "time": 240,
             "ingredients": [
                 [
                     "PlutoniumCell",
-                    15
+                    30
                 ],
                 [
                     "SteelPlate",
-                    8
+                    18
                 ],
                 [
                     "ElectromagneticControlRod",
-                    3
+                    6
                 ],
                 [
                     "HeatSink",
-                    5
+                    10
                 ]
             ],
             "product": [
@@ -2538,7 +2770,7 @@
                     3
                 ],
                 [
-                    "AILimiter",
+                    "CircuitBoardHighSpeed",
                     2
                 ]
             ],
@@ -2578,16 +2810,12 @@
             "time": 120,
             "ingredients": [
                 [
-                    "VersatileFramework",
+                    "SpaceElevatorPart_2",
                     5
                 ],
                 [
                     "ElectromagneticControlRod",
                     2
-                ],
-                [
-                    "Battery",
-                    10
                 ]
             ],
             "product": [
@@ -2615,15 +2843,15 @@
             "name": "Nobelisk",
             "key_name": "Nobelisk",
             "category": "crafting0",
-            "time": 20,
+            "time": 6,
             "ingredients": [
                 [
                     "BlackPowder",
-                    5
+                    2
                 ],
                 [
                     "SteelPipe",
-                    10
+                    2
                 ]
             ],
             "product": [
@@ -2724,34 +2952,6 @@
             ]
         },
         {
-            "name": "Beacon",
-            "key_name": "BP_EquipmentDescriptorBeacon_C",
-            "category": "crafting0",
-            "time": 8,
-            "ingredients": [
-                [
-                    "IronPlate",
-                    3
-                ],
-                [
-                    "IronRod",
-                    1
-                ],
-                [
-                    "Wire",
-                    15
-                ],
-                [
-                    "Cable",
-                    2
-                ]
-            ],
-            "product": [
-                "BP_EquipmentDescriptorBeacon_C",
-                1
-            ]
-        },
-        {
             "name": "Solid Biofuel",
             "key_name": "Biofuel",
             "category": "crafting0",
@@ -2774,15 +2974,15 @@
             "time": 8,
             "ingredients": [
                 [
-                    "Coal",
-                    5
-                ],
-                [
-                    "Rubber",
+                    "Fabric",
                     2
                 ],
                 [
-                    "Fabric",
+                    "Coal",
+                    4
+                ],
+                [
+                    "IronPlate",
                     2
                 ]
             ],
@@ -2792,7 +2992,7 @@
             ]
         },
         {
-            "name": "Iodine Infused Filter",
+            "name": "Iodine-Infused Filter",
             "key_name": "HazmatFilter",
             "category": "crafting0",
             "time": 16,
@@ -2887,7 +3087,7 @@
             "ingredients": [
                 [
                     "Mycelia",
-                    10
+                    1
                 ]
             ],
             "product": [
@@ -2947,7 +3147,7 @@
             "name": "Black Powder",
             "key_name": "BlackPowder",
             "category": "crafting0",
-            "time": 8,
+            "time": 4,
             "ingredients": [
                 [
                     "Coal",
@@ -2955,12 +3155,12 @@
                 ],
                 [
                     "Sulfur",
-                    2
+                    1
                 ]
             ],
             "product": [
                 "BlackPowder",
-                1
+                2
             ]
         },
         {
@@ -3047,20 +3247,20 @@
             "name": "Alternate: Coated Iron Plate",
             "key_name": "IronPlate",
             "category": "crafting0",
-            "time": 12,
+            "time": 8,
             "ingredients": [
                 [
                     "IronIngot",
-                    10
+                    5
                 ],
                 [
                     "Plastic",
-                    2
+                    1
                 ]
             ],
             "product": [
                 "IronPlate",
-                15
+                10
             ]
         },
         {
@@ -3087,11 +3287,11 @@
             "name": "Alternate: Copper Alloy Ingot",
             "key_name": "CopperIngot",
             "category": "crafting0",
-            "time": 12,
+            "time": 6,
             "ingredients": [
                 [
                     "OreCopper",
-                    10
+                    5
                 ],
                 [
                     "OreIron",
@@ -3100,7 +3300,7 @@
             ],
             "product": [
                 "CopperIngot",
-                20
+                10
             ]
         },
         {
@@ -3144,23 +3344,23 @@
             ]
         },
         {
-            "name": "Alternate: Electrode - Aluminum Scrap",
+            "name": "Alternate: Electrode Aluminum Scrap",
             "key_name": "AluminumScrap",
             "category": "crafting0",
-            "time": 2,
+            "time": 4,
             "ingredients": [
                 [
                     "AluminaSolution",
-                    3
+                    12
                 ],
                 [
                     "PetroleumCoke",
-                    1
+                    4
                 ]
             ],
             "product": [
                 "AluminumScrap",
-                8
+                20
             ]
         },
         {
@@ -3171,11 +3371,11 @@
             "ingredients": [
                 [
                     "Rubber",
-                    6
+                    4
                 ],
                 [
                     "PetroleumCoke",
-                    9
+                    8
                 ]
             ],
             "product": [
@@ -3185,7 +3385,7 @@
         },
         {
             "name": "Alternate: Flexible Framework",
-            "key_name": "VersatileFramework",
+            "key_name": "SpaceElevatorPart_2",
             "category": "crafting0",
             "time": 16,
             "ingredients": [
@@ -3203,7 +3403,7 @@
                 ]
             ],
             "product": [
-                "VersatileFramework",
+                "SpaceElevatorPart_2",
                 2
             ]
         },
@@ -3297,7 +3497,7 @@
         },
         {
             "name": "Alternate: Plastic Smart Plating",
-            "key_name": "SmartPlating",
+            "key_name": "SpaceElevatorPart_1",
             "category": "crafting0",
             "time": 24,
             "ingredients": [
@@ -3315,7 +3515,7 @@
                 ]
             ],
             "product": [
-                "SmartPlating",
+                "SpaceElevatorPart_1",
                 2
             ]
         },
@@ -3323,15 +3523,15 @@
             "name": "Alternate: Polyester Fabric",
             "key_name": "Fabric",
             "category": "crafting0",
-            "time": 12,
+            "time": 2,
             "ingredients": [
                 [
                     "PolymerResin",
-                    16
+                    1
                 ],
                 [
                     "Water",
-                    10
+                    1
                 ]
             ],
             "product": [
@@ -3359,16 +3559,16 @@
             "name": "Alternate: Pure Aluminum Ingot",
             "key_name": "AluminumIngot",
             "category": "crafting0",
-            "time": 20,
+            "time": 2,
             "ingredients": [
                 [
                     "AluminumScrap",
-                    18
+                    2
                 ]
             ],
             "product": [
                 "AluminumIngot",
-                9
+                1
             ]
         },
         {
@@ -3432,6 +3632,46 @@
             ]
         },
         {
+            "name": "Alternate: Basic Iron Ingot",
+            "key_name": "IronIngot",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "OreIron",
+                    5
+                ],
+                [
+                    "Stone",
+                    8
+                ]
+            ],
+            "product": [
+                "IronIngot",
+                10
+            ]
+        },
+        {
+            "name": "Alternate: Leached Iron ingot",
+            "key_name": "IronIngot",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "OreIron",
+                    5
+                ],
+                [
+                    "SulfuricAcid",
+                    1
+                ]
+            ],
+            "product": [
+                "IronIngot",
+                10
+            ]
+        },
+        {
             "name": "Alternate: Pure Quartz Crystal",
             "key_name": "QuartzCrystal",
             "category": "crafting0",
@@ -3475,7 +3715,7 @@
             "name": "Alternate: Rubber Concrete",
             "key_name": "Cement",
             "category": "crafting0",
-            "time": 12,
+            "time": 6,
             "ingredients": [
                 [
                     "Stone",
@@ -3515,16 +3755,16 @@
             "name": "Alternate: Steel Canister",
             "key_name": "FluidCanister",
             "category": "crafting0",
-            "time": 3,
+            "time": 6,
             "ingredients": [
                 [
                     "SteelIngot",
-                    3
+                    4
                 ]
             ],
             "product": [
                 "FluidCanister",
-                2
+                4
             ]
         },
         {
@@ -3663,7 +3903,7 @@
             "ingredients": [
                 [
                     "AluminumIngot",
-                    15
+                    20
                 ],
                 [
                     "CopperIngot",
@@ -3682,20 +3922,12 @@
             "time": 60,
             "ingredients": [
                 [
-                    "Motor",
-                    1
-                ],
-                [
                     "SteelPipe",
                     4
                 ],
                 [
-                    "IronRod",
-                    4
-                ],
-                [
                     "IronPlate",
-                    2
+                    4
                 ]
             ],
             "product": [
@@ -3735,11 +3967,11 @@
             "name": "Alternate: Cooling Device",
             "key_name": "CoolingSystem",
             "category": "crafting0",
-            "time": 32,
+            "time": 24,
             "ingredients": [
                 [
                     "HeatSink",
-                    2
+                    4
                 ],
                 [
                     "Motor",
@@ -3807,15 +4039,15 @@
                 ],
                 [
                     "NuclearWaste",
-                    10
+                    5
                 ],
                 [
                     "NitricAcid",
-                    15
+                    3
                 ],
                 [
                     "SulfuricAcid",
-                    15
+                    5
                 ]
             ],
             "product": [
@@ -3855,24 +4087,20 @@
             "name": "Alternate: Instant Plutonium Cell",
             "key_name": "PlutoniumCell",
             "category": "crafting0",
-            "time": 60,
+            "time": 120,
             "ingredients": [
                 [
                     "NonFissibleUranium",
-                    75
+                    150
                 ],
                 [
                     "AluminumCasing",
-                    25
-                ],
-                [
-                    "NitrogenGas",
-                    25
+                    20
                 ]
             ],
             "product": [
                 "PlutoniumCell",
-                25
+                20
             ]
         },
         {
@@ -3895,7 +4123,7 @@
                 ],
                 [
                     "Water",
-                    11
+                    6
                 ]
             ],
             "product": [
@@ -3911,27 +4139,27 @@
             "ingredients": [
                 [
                     "ModularFrameLightweight",
-                    3
+                    2
                 ],
                 [
                     "CoolingSystem",
-                    3
+                    2
                 ]
             ],
             "product": [
                 "ComputerSuper",
-                9
+                1
             ]
         },
         {
             "name": "Alternate: Plutonium Fuel Unit",
             "key_name": "PlutoniumFuelRod",
             "category": "crafting0",
-            "time": 60,
+            "time": 120,
             "ingredients": [
                 [
                     "PlutoniumCell",
-                    10
+                    20
                 ],
                 [
                     "PressureConversionCube",
@@ -3959,7 +4187,7 @@
                 ],
                 [
                     "AluminumCasing",
-                    45
+                    60
                 ],
                 [
                     "Rubber",
@@ -3995,7 +4223,7 @@
             "name": "Alternate: Super-State Computer",
             "key_name": "ComputerSuper",
             "category": "crafting0",
-            "time": 50,
+            "time": 25,
             "ingredients": [
                 [
                     "Computer",
@@ -4003,20 +4231,20 @@
                 ],
                 [
                     "ElectromagneticControlRod",
-                    2
+                    1
                 ],
                 [
                     "Battery",
-                    20
+                    10
                 ],
                 [
                     "Wire",
-                    45
+                    25
                 ]
             ],
             "product": [
                 "ComputerSuper",
-                2
+                1
             ]
         },
         {
@@ -4051,11 +4279,11 @@
             "name": "Alternate: Turbo Pressure Motor",
             "key_name": "MotorLightweight",
             "category": "crafting0",
-            "time": 16,
+            "time": 32,
             "ingredients": [
                 [
                     "Motor",
-                    2
+                    4
                 ],
                 [
                     "PressureConversionCube",
@@ -4063,40 +4291,16 @@
                 ],
                 [
                     "PackagedNitrogenGas",
-                    15
+                    24
                 ],
                 [
                     "Stator",
-                    6
+                    8
                 ]
             ],
             "product": [
                 "MotorLightweight",
-                1
-            ]
-        },
-        {
-            "name": "Alternate: Crystal Beacon",
-            "key_name": "BP_EquipmentDescriptorBeacon_C",
-            "category": "crafting0",
-            "time": 120,
-            "ingredients": [
-                [
-                    "SteelPlate",
-                    4
-                ],
-                [
-                    "SteelPipe",
-                    16
-                ],
-                [
-                    "CrystalOscillator",
-                    1
-                ]
-            ],
-            "product": [
-                "BP_EquipmentDescriptorBeacon_C",
-                20
+                2
             ]
         },
         {
@@ -4140,7 +4344,7 @@
             ]
         },
         {
-            "name": "Alternate: Silicone Circuit Board",
+            "name": "Alternate: Silicon Circuit Board",
             "key_name": "CircuitBoard",
             "category": "crafting0",
             "time": 24,
@@ -4187,15 +4391,15 @@
             "ingredients": [
                 [
                     "CircuitBoard",
-                    7
+                    4
                 ],
                 [
                     "Quickwire",
-                    28
+                    14
                 ],
                 [
                     "Rubber",
-                    12
+                    6
                 ]
             ],
             "product": [
@@ -4207,27 +4411,27 @@
             "name": "Alternate: Crystal Computer",
             "key_name": "Computer",
             "category": "crafting0",
-            "time": 64,
+            "time": 36,
             "ingredients": [
                 [
                     "CircuitBoard",
-                    8
+                    3
                 ],
                 [
                     "CrystalOscillator",
-                    3
+                    1
                 ]
             ],
             "product": [
                 "Computer",
-                3
+                2
             ]
         },
         {
             "name": "Alternate: Fine Concrete",
             "key_name": "Cement",
             "category": "crafting0",
-            "time": 24,
+            "time": 12,
             "ingredients": [
                 [
                     "Silica",
@@ -4258,7 +4462,7 @@
                     7
                 ],
                 [
-                    "AILimiter",
+                    "CircuitBoardHighSpeed",
                     1
                 ]
             ],
@@ -4291,27 +4495,27 @@
             "name": "Alternate: Fine Black Powder",
             "key_name": "BlackPowder",
             "category": "crafting0",
-            "time": 16,
+            "time": 8,
             "ingredients": [
                 [
                     "Sulfur",
-                    2
+                    1
                 ],
                 [
                     "CompactedCoal",
-                    1
+                    2
                 ]
             ],
             "product": [
                 "BlackPowder",
-                4
+                6
             ]
         },
         {
             "name": "Alternate: Heat Exchanger",
             "key_name": "HeatSink",
             "category": "crafting0",
-            "time": 12,
+            "time": 6,
             "ingredients": [
                 [
                     "AluminumCasing",
@@ -4319,12 +4523,12 @@
                 ],
                 [
                     "Rubber",
-                    4
+                    3
                 ]
             ],
             "product": [
                 "HeatSink",
-                2
+                1
             ]
         },
         {
@@ -4356,7 +4560,7 @@
             ]
         },
         {
-            "name": "Alternate: Silicone-Speed Connector",
+            "name": "Alternate: Silicon High-Speed Connector",
             "key_name": "HighSpeedConnector",
             "category": "crafting0",
             "time": 40,
@@ -4383,11 +4587,11 @@
             "name": "Alternate: Iron Alloy Ingot",
             "key_name": "IronIngot",
             "category": "crafting0",
-            "time": 6,
+            "time": 12,
             "ingredients": [
                 [
                     "OreIron",
-                    2
+                    8
                 ],
                 [
                     "OreCopper",
@@ -4396,7 +4600,7 @@
             ],
             "product": [
                 "IronIngot",
-                5
+                15
             ]
         },
         {
@@ -4423,20 +4627,20 @@
             "name": "Alternate: Compacted Steel Ingot",
             "key_name": "SteelIngot",
             "category": "crafting0",
-            "time": 16,
+            "time": 24,
             "ingredients": [
                 [
                     "OreIron",
-                    6
+                    2
                 ],
                 [
                     "CompactedCoal",
-                    3
+                    1
                 ]
             ],
             "product": [
                 "SteelIngot",
-                10
+                4
             ]
         },
         {
@@ -4460,7 +4664,7 @@
             ]
         },
         {
-            "name": "Alternate: Rigour Motor",
+            "name": "Alternate: Rigor Motor",
             "key_name": "Motor",
             "category": "crafting0",
             "time": 48,
@@ -4508,7 +4712,7 @@
             ]
         },
         {
-            "name": "Alternate: Nuclear Fuel Unit",
+            "name": "Alternate: Uranium Fuel Unit",
             "key_name": "NuclearFuelRod",
             "category": "crafting0",
             "time": 300,
@@ -4526,8 +4730,8 @@
                     3
                 ],
                 [
-                    "BP_EquipmentDescriptorBeacon_C",
-                    6
+                    "Rotor",
+                    10
                 ]
             ],
             "product": [
@@ -4647,7 +4851,7 @@
             "ingredients": [
                 [
                     "SteelPipe",
-                    7
+                    6
                 ],
                 [
                     "Cement",
@@ -4715,7 +4919,7 @@
             "name": "Alternate: Cheap Silica",
             "key_name": "Silica",
             "category": "crafting0",
-            "time": 16,
+            "time": 8,
             "ingredients": [
                 [
                     "RawQuartz",
@@ -4729,6 +4933,30 @@
             "product": [
                 "Silica",
                 7
+            ]
+        },
+        {
+            "name": "Alternate: Distilled Silica",
+            "key_name": "Silica",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "DissolvedSilica",
+                    12
+                ],
+                [
+                    "Stone",
+                    5
+                ],
+                [
+                    "Water",
+                    10
+                ]
+            ],
+            "product": [
+                "Silica",
+                27
             ]
         },
         {
@@ -4752,7 +4980,7 @@
             ]
         },
         {
-            "name": "Alternate: Turbo Rigour Motor",
+            "name": "Alternate: Turbo Electric Motor",
             "key_name": "MotorLightweight",
             "category": "crafting0",
             "time": 64,
@@ -4763,15 +4991,15 @@
                 ],
                 [
                     "ModularFrameLightweight",
-                    5
+                    9
                 ],
                 [
                     "ElectromagneticControlRod",
-                    7
+                    5
                 ],
                 [
                     "Rotor",
-                    9
+                    7
                 ]
             ],
             "product": [
@@ -4998,7 +5226,7 @@
                     10
                 ],
                 [
-                    "AILimiter",
+                    "CircuitBoardHighSpeed",
                     6
                 ]
             ],
@@ -5086,6 +5314,1441 @@
                 "ExplosiveRebar",
                 1
             ]
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "key_name": "FicsiteIngotIron",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    4
+                ],
+                [
+                    "IronIngot",
+                    24
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Nitrogen Gas (Bauxite)",
+            "key_name": "NitrogenGas",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    10
+                ]
+            ],
+            "product": [
+                "NitrogenGas",
+                12
+            ]
+        },
+        {
+            "name": "Alternate: Iron Pipe",
+            "key_name": "SteelPipe",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "SteelIngot",
+                    20
+                ]
+            ],
+            "product": [
+                "SteelPipe",
+                5
+            ]
+        },
+        {
+            "name": "Alternate: Steel Cast Plate",
+            "key_name": "IronPlate",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "IronIngot",
+                    1
+                ],
+                [
+                    "SteelIngot",
+                    1
+                ]
+            ],
+            "product": [
+                "IronPlate",
+                3
+            ]
+        },
+        {
+            "name": "Iron Ore (Limestone)",
+            "key_name": "OreIron",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Stone",
+                    24
+                ]
+            ],
+            "product": [
+                "OreIron",
+                12
+            ]
+        },
+        {
+            "name": "Limestone (Sulfur)",
+            "key_name": "Stone",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Sulfur",
+                    2
+                ]
+            ],
+            "product": [
+                "Stone",
+                12
+            ]
+        },
+        {
+            "name": "Coal (Iron)",
+            "key_name": "Coal",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreIron",
+                    18
+                ]
+            ],
+            "product": [
+                "Coal",
+                12
+            ]
+        },
+        {
+            "name": "Coal (Limestone)",
+            "key_name": "Coal",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Stone",
+                    36
+                ]
+            ],
+            "product": [
+                "Coal",
+                12
+            ]
+        },
+        {
+            "name": "Sulfur (Iron)",
+            "key_name": "Sulfur",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreIron",
+                    30
+                ]
+            ],
+            "product": [
+                "Sulfur",
+                12
+            ]
+        },
+        {
+            "name": "Uranium Ore (Bauxite)",
+            "key_name": "OreUranium",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    48
+                ]
+            ],
+            "product": [
+                "OreUranium",
+                12
+            ]
+        },
+        {
+            "name": "Singularity Cell",
+            "key_name": "SingularityCell",
+            "category": "crafting0",
+            "time": 60,
+            "ingredients": [
+                [
+                    "SpaceElevatorPart_9",
+                    1
+                ],
+                [
+                    "DarkMatter",
+                    20
+                ],
+                [
+                    "IronPlate",
+                    100
+                ],
+                [
+                    "Cement",
+                    200
+                ]
+            ],
+            "product": [
+                "SingularityCell",
+                10
+            ]
+        },
+        {
+            "name": "Alternate: Aluminum Rod",
+            "key_name": "IronRod",
+            "category": "crafting0",
+            "time": 8,
+            "ingredients": [
+                [
+                    "AluminumIngot",
+                    1
+                ]
+            ],
+            "product": [
+                "IronRod",
+                7
+            ]
+        },
+        {
+            "name": "Copper Ore (Quartz)",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "RawQuartz",
+                    10
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Copper Ore (Sulfur)",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Sulfur",
+                    12
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Bauxite (Copper)",
+            "key_name": "OreBauxite",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreCopper",
+                    18
+                ]
+            ],
+            "product": [
+                "OreBauxite",
+                12
+            ]
+        },
+        {
+            "name": "Caterium Ore (Copper)",
+            "key_name": "OreGold",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreCopper",
+                    15
+                ]
+            ],
+            "product": [
+                "OreGold",
+                12
+            ]
+        },
+        {
+            "name": "Caterium Ore (Quartz)",
+            "key_name": "OreGold",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "RawQuartz",
+                    12
+                ]
+            ],
+            "product": [
+                "OreCopper",
+                12
+            ]
+        },
+        {
+            "name": "Bauxite (Caterium)",
+            "key_name": "OreBauxite",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreGold",
+                    15
+                ]
+            ],
+            "product": [
+                "OreBauxite",
+                12
+            ]
+        },
+        {
+            "name": "Nitrogen Gas (Caterium)",
+            "key_name": "NitrogenGas",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreGold",
+                    12
+                ]
+            ],
+            "product": [
+                "NitrogenGas",
+                12
+            ]
+        },
+        {
+            "name": "Raw Quartz (Bauxite)",
+            "key_name": "RawQuartz",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "OreBauxite",
+                    10
+                ]
+            ],
+            "product": [
+                "RawQuartz",
+                12
+            ]
+        },
+        {
+            "name": "Raw Quartz (Coal)",
+            "key_name": "RawQuartz",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Coal",
+                    24
+                ]
+            ],
+            "product": [
+                "RawQuartz",
+                12
+            ]
+        },
+        {
+            "name": "Sulfur (Coal)",
+            "key_name": "Sulfur",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    1
+                ],
+                [
+                    "Coal",
+                    20
+                ]
+            ],
+            "product": [
+                "Sulfur",
+                12
+            ]
+        },
+        {
+            "name": "Alternate: Leached Copper Ingot",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "OreCopper",
+                    9
+                ],
+                [
+                    "SulfuricAcid",
+                    5
+                ]
+            ],
+            "product": [
+                "CopperIngot",
+                22
+            ]
+        },
+        {
+            "name": "Alternate: Tempered Copper Ingot",
+            "key_name": "OreCopper",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "OreCopper",
+                    5
+                ],
+                [
+                    "PetroleumCoke",
+                    8
+                ]
+            ],
+            "product": [
+                "CopperIngot",
+                12
+            ]
+        },
+        {
+            "name": "SAM Fluctuator",
+            "key_name": "SAMFluctuator",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMFluctuator",
+                    6
+                ],
+                [
+                    "Wire",
+                    5
+                ],
+                [
+                    "SteelPipe",
+                    3
+                ]
+            ],
+            "product": [
+                "SAMFluctuator",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Molded Beam",
+            "key_name": "SteelPlate",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "SteelIngot",
+                    24
+                ],
+                [
+                    "Cement",
+                    16
+                ]
+            ],
+            "product": [
+                "SteelPlate",
+                9
+            ]
+        },
+        {
+            "name": "Alternate: Molded Steel Pipe",
+            "key_name": "SteelPipe",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SteelIngot",
+                    5
+                ],
+                [
+                    "Cement",
+                    3
+                ]
+            ],
+            "product": [
+                "SteelPipe",
+                5
+            ]
+        },
+        {
+            "name": "Biomass (Alien Protein)",
+            "key_name": "GenericBiomass",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "AlienProtein",
+                    1
+                ]
+            ],
+            "product": [
+                "GenericBiomass",
+                100
+            ]
+        },
+        {
+            "name": "Alternate: Aluminum Beam",
+            "key_name": "SteelPlate",
+            "category": "crafting0",
+            "time": 8,
+            "ingredients": [
+                [
+                    "AluminumIngot",
+                    3
+                ]
+            ],
+            "product": [
+                "SteelPlate",
+                3
+            ]
+        },
+        {
+            "name": "Alternate: Plastic AI Limiter",
+            "key_name": "CircuitBoardHighSpeed",
+            "category": "crafting0",
+            "time": 15,
+            "ingredients": [
+                [
+                    "Quickwire",
+                    30
+                ],
+                [
+                    "Plastic",
+                    7
+                ]
+            ],
+            "product": [
+                "CircuitBoardHighSpeed",
+                2
+            ]
+        },
+        {
+            "name": "Alternate: Petroleum Diamonds",
+            "key_name": "Diamond",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "PetroleumCoke",
+                    24
+                ]
+            ],
+            "product": [
+                "Diamond",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Tempered Caterium Ingot",
+            "key_name": "GoldIngot",
+            "category": "crafting0",
+            "time": 8,
+            "ingredients": [
+                [
+                    "OreGold",
+                    6
+                ],
+                [
+                    "PetroleumCoke",
+                    2
+                ]
+            ],
+            "product": [
+                "GoldIngot",
+                3
+            ]
+        },
+        {
+            "name": "Alternate: Nitro Rocket Fuel",
+            "key_name": "RocketFuel",
+            "category": "crafting0",
+            "time": 2.4,
+            "ingredients": [
+                [
+                    "LiquidFuel",
+                    4
+                ],
+                [
+                    "NitrogenGas",
+                    3
+                ],
+                [
+                    "Sulfur",
+                    4
+                ],
+                [
+                    "Coal",
+                    2
+                ]
+            ],
+            "product": [
+                "RocketFuel",
+                6
+            ]
+        },
+        {
+            "name": "Alternate: Turbofuel(Alternate)",
+            "key_name": "LiquidTurboFuel",
+            "category": "crafting0",
+            "time": 16,
+            "ingredients": [
+                [
+                    "LiquidFuel",
+                    6
+                ],
+                [
+                    "CompactedCoal",
+                    4
+                ]
+            ],
+            "product": [
+                "RocketFuel",
+                5
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Aluminum)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    2
+                ],
+                [
+                    "AluminumIngot",
+                    4
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Caterium)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    3
+                ],
+                [
+                    "GoldIngot",
+                    4
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "key_name": "FicsiteIngot",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    4
+                ],
+                [
+                    "IronIngot",
+                    24
+                ]
+            ],
+            "product": [
+                "FicsiteIngot",
+                1
+            ]
+        },
+        {
+            "name": "Superposition Oscillator",
+            "key_name": "QuantumOscillator",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "DarkMatter",
+                    6
+                ],
+                [
+                    "CrystalOscillator",
+                    1
+                ],
+                [
+                    "AluminumPlate",
+                    9
+                ],
+                [
+                    "QuantumEnergy",
+                    25
+                ]
+            ],
+            "product": [
+                "QuantumOscillator",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Leached Caterium Ingot",
+            "key_name": "QuantumOscillator",
+            "category": "crafting0",
+            "time": 10,
+            "ingredients": [
+                [
+                    "OreGold",
+                    9
+                ],
+                [
+                    "SulfuricAcid",
+                    5
+                ]
+            ],
+            "product": [
+                "GoldIngot",
+                6
+            ]
+        },
+        {
+            "name": "Neural-Quantum Processor",
+            "key_name": "TemporalProcessor",
+            "category": "crafting0",
+            "time": 20,
+            "ingredients": [
+                [
+                    "TimeCrystal",
+                    5
+                ],
+                [
+                    "ComputerSuper",
+                    1
+                ],
+                [
+                    "FicsiteMesh",
+                    15
+                ],
+                [
+                    "QuantumEnergy",
+                    25
+                ]
+            ],
+            "product": [
+                "TemporalProcessor",
+                1
+            ]
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "key_name": "SpaceElevatorPart_10",
+            "category": "crafting0",
+            "time": 120,
+            "ingredients": [
+                [
+                    "SpaceElevatorPart_7",
+                    1
+                ],
+                [
+                    "FicsiteMesh",
+                    80
+                ],
+                [
+                    "Water",
+                    20
+                ]
+            ],
+            "product": [
+                "TemporalProcessor",
+                4
+            ]
+        },
+        {
+            "name": "Alternate: Infused Uranium Cell",
+            "key_name": "UraniumCell",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "UraniumCell",
+                    5
+                ],
+                [
+                    "Silica",
+                    3
+                ],
+                [
+                    "Sulfur",
+                    5
+                ],
+                [
+                    "Quickwire",
+                    15
+                ]
+            ],
+            "product": [
+                "UraniumCell",
+                4
+            ]
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "key_name": "FicsoniumFuelRod",
+            "category": "crafting0",
+            "time": 24,
+            "ingredients": [
+                [
+                    "Ficsonium",
+                    2
+                ],
+                [
+                    "ElectromagneticControlRod",
+                    2
+                ],
+                [
+                    "FicsiteMesh",
+                    40
+                ],
+                [
+                    "QuantumEnergy",
+                    20
+                ]
+            ],
+            "product": [
+                "UraniumCell",
+                1
+            ]
+        },
+        {
+            "name": "AI Expansion Server",
+            "key_name": "SpaceElevatorPart_12",
+            "category": "crafting0",
+            "time": 15,
+            "ingredients": [
+                [
+                    "SpaceElevatorPart_6",
+                    1
+                ],
+                [
+                    "TemporalProcessor",
+                    1
+                ],
+                [
+                    "QuantumOscillator",
+                    1
+                ],
+                [
+                    "QuantumEnergy",
+                    25
+                ]
+            ],
+            "product": [
+                "SpaceElevatorPart_12",
+                1
+            ]
+        },
+        {
+            "name": "Ionized Fuel",
+            "key_name": "IonizedFuel",
+            "category": "crafting0",
+            "time": 24,
+            "ingredients": [
+                [
+                    "RocketFuel",
+                    16
+                ],
+                [
+                    "CrystalShard",
+                    1
+                ]
+            ],
+            "product": [
+                "IonizedFuel",
+                16
+            ]
+        },
+        {
+            "name": "Packaged Ionized Fuel",
+            "key_name": "PackagedIonizedFuel",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "IonizedFuel",
+                    4
+                ],
+                [
+                    "GasTank",
+                    2
+                ]
+            ],
+            "product": [
+                "PackagedIonizedFuel",
+                2
+            ]
+        },
+        {
+            "name": "Packaged Rocket Fuel",
+            "key_name": "PackagedRocketFuel",
+            "category": "crafting0",
+            "time": 1,
+            "ingredients": [
+                [
+                    "RocketFuel",
+                    2
+                ],
+                [
+                    "GasTank",
+                    1
+                ]
+            ],
+            "product": [
+                "PackagedRocketFuel",
+                1
+            ]
+        },
+        {
+            "name": "Ballistic Warp Drive",
+            "key_name": "SpaceElevatorPart_11",
+            "category": "crafting0",
+            "time": 60,
+            "ingredients": [
+                [
+                    "SpaceElevatorPart_8",
+                    1
+                ],
+                [
+                    "SingularityCell",
+                    5
+                ],
+                [
+                    "QuantumOscillator",
+                    2
+                ],
+                [
+                    "DarkMatter",
+                    40
+                ]
+            ],
+            "product": [
+                "SpaceElevatorPart_11",
+                1
+            ]
+        },
+        {
+            "name": "Rocket Fuel",
+            "key_name": "RocketFuel",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "LiquidTurboFuel",
+                    6
+                ],
+                [
+                    "PackagedNitricAcid",
+                    1
+                ]
+            ],
+            "product": [
+                "RocketFuel",
+                10
+            ]
+        },
+        {
+            "name": "Alternate: Quartz Purification",
+            "key_name": "QuartzCrystal",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "RawQuartz",
+                    24
+                ],
+                [
+                    "NitricAcid",
+                    2
+                ]
+            ],
+            "product": [
+                "QuartzCrystal",
+                15
+            ]
+        },
+        {
+            "name": "Ficsonium",
+            "key_name": "Ficsonium",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "PlutoniumWaste",
+                    1
+                ],
+                [
+                    "SingularityCell",
+                    1
+                ],
+                [
+                    "DarkEnergy",
+                    20
+                ]
+            ],
+            "product": [
+                "Ficsonium",
+                1
+            ]
+        },
+        {
+            "name": "Diamonds",
+            "key_name": "Diamond",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "Coal",
+                    20
+                ]
+            ],
+            "product": [
+                "Diamond",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Cloudy Diamonds",
+            "key_name": "Diamond",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "Coal",
+                    12
+                ],
+                [
+                    "Stone",
+                    24
+                ]
+            ],
+            "product": [
+                "Diamond",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Oil-Based Diamonds",
+            "key_name": "Diamond",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "LiquidOil",
+                    10
+                ]
+            ],
+            "product": [
+                "Diamond",
+                2
+            ]
+        },
+        {
+            "name": "Alternate: Pink Diamonds",
+            "key_name": "Diamond",
+            "category": "crafting0",
+            "time": 4,
+            "ingredients": [
+                [
+                    "Coal",
+                    8
+                ],
+                [
+                    "QuartzCrystal",
+                    3
+                ]
+            ],
+            "product": [
+                "Diamond",
+                1
+            ]
+        },
+        {
+            "name": "Dark Matter Crystal",
+            "key_name": "DarkMatter",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "Diamond",
+                    1
+                ],
+                [
+                    "DarkEnergy",
+                    5
+                ]
+            ],
+            "product": [
+                "Diamond",
+                1
+            ]
+        },
+        {
+            "name": "Time Crystal",
+            "key_name": "DarkMatter",
+            "category": "crafting0",
+            "time": 10,
+            "ingredients": [
+                [
+                    "Diamond",
+                    2
+                ]
+            ],
+            "product": [
+                "TimeCrystal",
+                1
+            ]
+        },
+        {
+            "name": "Synthetic Power Shard",
+            "key_name": "CrystalShard",
+            "category": "crafting0",
+            "time": 12,
+            "ingredients": [
+                [
+                    "TimeCrystal",
+                    2
+                ],
+                [
+                    "DarkMatter",
+                    2
+                ],
+                [
+                    "QuartzCrystal",
+                    12
+                ],
+                [
+                    "QuantumEnergy",
+                    12
+                ]
+            ],
+            "product": [
+                "CrystalShard",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Dark Matter Trap",
+            "key_name": "CrystalShard",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "TimeCrystal",
+                    1
+                ],
+                [
+                    "DarkEnergy",
+                    5
+                ]
+            ],
+            "product": [
+                "DarkMatter",
+                2
+            ]
+        },
+        {
+            "name": "Ficsite Trigon",
+            "key_name": "FicsiteMesh",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "FicsiteIngot",
+                    1
+                ]
+            ],
+            "product": [
+                "FicsiteMesh",
+                3
+            ]
+        },
+        {
+            "name": "Excited Photonic Matter",
+            "key_name": "QuantumEnergy",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [],
+            "product": [
+                "QuantumEnergy",
+                10
+            ]
+        },
+        {
+            "name": "Alien Power Matrix",
+            "key_name": "AlienPowerFuel",
+            "category": "crafting0",
+            "time": 24,
+            "ingredients": [
+                [
+                    "SAMFluctuator",
+                    5
+                ],
+                [
+                    "CrystalShard",
+                    3
+                ],
+                [
+                    "QuantumOscillator",
+                    3
+                ],
+                [
+                    "QuantumEnergy",
+                    24
+                ]
+            ],
+            "product": [
+                "AlienPowerFuel",
+                1
+            ]
+        },
+        {
+            "name": "Dark Matter Residue",
+            "key_name": "DarkEnergy",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "SAMIngot",
+                    5
+                ]
+            ],
+            "product": [
+                "DarkEnergy",
+                10
+            ]
+        },
+        {
+            "name": "Alternate: Dark Matter Crystallization",
+            "key_name": "DarkMatter",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "DarkEnergy",
+                    10
+                ]
+            ],
+            "product": [
+                "DarkMatter",
+                1
+            ]
+        },
+        {
+            "name": "Alternate: Dark-Ion Fuel",
+            "key_name": "IonizedFuel",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "PackagedRocketFuel",
+                    12
+                ],
+                [
+                    "DarkMatter",
+                    4
+                ]
+            ],
+            "product": [
+                "IonizedFuel",
+                10
+            ]
+        },
+        {
+            "name": "Hatcher Protein",
+            "key_name": "AlienProtein",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "HatcherParts",
+                    1
+                ]
+            ],
+            "product": [
+                "AlienProtein",
+                1
+            ]
+        },
+        {
+            "name": "Hog Protein",
+            "key_name": "AlienProtein",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "HogParts",
+                    1
+                ]
+            ],
+            "product": [
+                "AlienProtein",
+                1
+            ]
+        },
+        {
+            "name": "Spitter Protein",
+            "key_name": "AlienProtein",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "SpitterParts",
+                    1
+                ]
+            ],
+            "product": [
+                "AlienProtein",
+                1
+            ]
+        },
+        {
+            "name": "Stinger Protein",
+            "key_name": "AlienProtein",
+            "category": "crafting0",
+            "time": 3,
+            "ingredients": [
+                [
+                    "StingerParts",
+                    1
+                ]
+            ],
+            "product": [
+                "AlienProtein",
+                1
+            ]
+        },
+        {
+            "name": "Alien DNA Capsule",
+            "key_name": "AlienDNACapsule",
+            "category": "crafting0",
+            "time": 6,
+            "ingredients": [
+                [
+                    "AlienProtein",
+                    1
+                ]
+            ],
+            "product": [
+                "AlienDNACapsule",
+                1
+            ]
+        },
+        {
+            "name": "Reanimated SAM",
+            "key_name": "SAMIngot",
+            "category": "crafting0",
+            "time": 2,
+            "ingredients": [
+                [
+                    "SAM",
+                    4
+                ]
+            ],
+            "product": [
+                "SAMIngot",
+                1
+            ]
         }
     ],
     "resources": [
@@ -5136,6 +6799,10 @@
         {
             "key_name": "NitrogenGas",
             "category": "gas"
+        },
+        {
+            "key_name": "SAM",
+            "category": "mineral"
         }
     ]
 }

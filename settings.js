@@ -207,13 +207,19 @@ function renderAltRecipes(settings) {
     if (settings.has("alt")) {
         let alt = settings.get("alt").split(",")
         for (let recipeKey of alt) {
-            let name = "Alternate" + recipeKey.replace(/_/g," ")
-            let itemName = spec.altRecipesAndItemNames.get(name)
-            let item = spec.items.get(itemName)
-            let recipe = Object.values(item.recipes).find(val => val.name == name)
-            if(recipe == undefined) continue
+            if (recipeKey.includes("Biomass")) {
+                let recipe = spec.items.get("GenericBiomass").recipes.find(r=>r.name == recipeKey.replace(/_/g," "))
+                if(recipe == undefined) continue
+                spec.setRecipe(recipe)
+            }else{
+                let name = "Alternate" + recipeKey.replace(/_/g," ")
+                let itemName = spec.altRecipesAndItemNames.get(name)
+                let item = spec.items.get(itemName)
+                let recipe = Object.values(item.recipes).find(val => val.name == name)
+                if(recipe == undefined) continue
+                spec.setRecipe(recipe)
+            }
 
-            spec.setRecipe(recipe)
         }
     }
 
