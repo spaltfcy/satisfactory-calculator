@@ -6612,26 +6612,6 @@
             ]
         },
         {
-            "name": "Ficsite Ingot (Iron)",
-            "key_name": "FicsiteIngotIron",
-            "category": "crafting0",
-            "time": 6,
-            "ingredients": [
-                [
-                    "SAMIngot",
-                    4
-                ],
-                [
-                    "IronIngot",
-                    24
-                ]
-            ],
-            "product": [
-                "FicsiteIngot",
-                1
-            ]
-        },
-        {
             "name": "Nitrogen Gas (Bauxite)",
             "key_name": "NitrogenGas",
             "category": "crafting0",
